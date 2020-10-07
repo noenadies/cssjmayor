@@ -197,6 +197,7 @@ if(arrahijos[i].id==stID){
    
     $(selector).click(function (e) { 
         e.preventDefault();
+
         funcionclickz1(this,varGioelementoactualseleccionadoconelcclik);
         
     });
@@ -224,3 +225,117 @@ function fGiorcambiarforma(selector){
 }
 
      
+
+
+
+
+
+
+
+// controles basicos
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+/*   var dots = document.getElementsByClassName("dot"); */
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+ /*  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  } */
+  slides[slideIndex-1].style.display = "block";  
+  dicealgo(slideIndex) ;
+/*   dots[slideIndex-1].className += " active"; */
+}
+
+
+function dicealgo(textst) { 
+
+  var text ="hoja numero "+textst; //$('#message').val();
+  var msg = new SpeechSynthesisUtterance();
+  try {
+    var voices = window.speechSynthesis.getVoices();
+  } catch (error) {
+    console.log("no habla");
+    console.log(error);
+  }
+
+ if(voices.length>0){
+  msg.voice =voices[0] // voices[$('#voices').val()];
+  
+  msg.rate =1;// $('#rate').val() / 10;
+  msg.pitch =1; //$('#pitch').val();
+  msg.text = text;
+
+  msg.onend = function(e) {
+   // console.log('Finished in ' + event.elapsedTime + ' seconds.');
+  };
+
+  speechSynthesis.speak(msg);
+ }
+  
+ }
+
+
+
+ function crearhojas(){
+
+
+ }
+
+
+ function menuderecho(){
+
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+ }
+
+
+
+ function menulateralizquierda(){
+
+  
+ }
+
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function openNav2() {
+  document.getElementById("mySidenav2").style.width = "250px";
+}
+
+function closeNav2() {
+  document.getElementById("mySidenav2").style.width = "0";
+}
