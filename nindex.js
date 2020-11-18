@@ -870,6 +870,8 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
     FGioarrastrarsimple(id);
   }
   this.menuElementoArrastrarSoltarenHoja=function (idelemento,idhoja,clidparasoltar){
+  
+    console.log("entra uno");
   fgiovannisoltarElementodeMenuaHoja (idelemento,idhoja,clidparasoltar);
   }
   this.inicia=function(idpadrecuerpoHojas){
