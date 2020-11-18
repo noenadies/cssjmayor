@@ -134,12 +134,22 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
   
   if(sich("idic6")){
     habilitarEresizable(actualelementoactivo.id,false);
+  
   }
   else{
-  
     deshabilitarEresizable(actualelementoactivo.id,true);
+  
   }
   
+  if(sich("idic7")){
+  
+    deshabilitarEdraggable(actualelementoactivo.id,true);
+  
+  }
+  else{
+    habilitarEdraggable(actualelementoactivo.id,false);
+    
+  }
   console.log(vaconlineapunteada);
   valoresparacssborder=creavaloresparacssborder(varv1,varv2,varv3,varv4);
    //border: 5px dotted #1C6EA4;
@@ -291,22 +301,31 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
   
   
     function deshabilitarEresizable(id, hablitar){
-      $( "#"+id).resizable({
+    /*   $( "#"+id).resizable({
         disabled: hablitar
-      });
+      }); */
+      $( "#"+id).resizable( "disable" );
     }
     function habilitarEresizable(id, hablitar){
-      $( "#"+id).resizable({
-        disabled: hablitar,
-        handles: "all",
-        grid: [ 0, 0 ]
-      });
-    }
   
+      
+      $( "#"+id).resizable( "enable" );
+  
+    }
+    function habilitarEdraggable(id, hablitar){
+  
+       
+      $( "#"+id).draggable( "enable" );
+     
+       }
+       function deshabilitarEdraggable(id, hablitar){
+  
+        $( "#"+id).draggable( "disable" );
+        }
     function fgiovannisoltarElementodeMenuaHoja(draggablex,droppable,clid=cllasscssindicadorasoltarsoloestoselementosenhoja){
   
       
-    
+    console.log("entra");
       $( "#"+draggablex ).draggable({
         stop: function( event, ui ) {
     
@@ -449,18 +468,16 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
     }
     $("#"+idagenerar).css(objcss1);
     FGioarrastrarE(idagenerar,containeridcuerpoH);
+    fGiovanniresizableE(idagenerar);
     if(iniciaconresize){
-      fGiovanniresizableE(idagenerar);
+     // fGiovanniresizableE(idagenerar);
     }
     else{
       deshabilitarEresizable(idagenerar,true);
     }
   
   
-  $(".classoverelementos").mouseover(function () { 
-    
-  
-   /* background-color: rgb(81, 221, 135); */
+  /* $(".classoverelementos").mouseover(function () { 
     
   
   $("#"+this.id).css("background-color","rgb(81, 221, 135)");
@@ -469,7 +486,7 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
   
   $(".classoverelementos").mouseout(function () { 
     $("#"+this.id).css("background-color","rgb(81, 221, 135,0)");
-  });
+  }); */
   
   
      }
@@ -726,8 +743,9 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
         ' <input type="checkbox" name="" id="idic2" class="classchangecheck">'+
        '  <input type="checkbox" name="" id="idic3" class="classchangecheck">'+
          '<input type="checkbox" name="" id="idic4" class="classchangecheck">'+
-         '<input type="checkbox" name="" id="idic5" class="classchangecheck">'+
+         '<input type="checkbox" name="" id="idic5" class="classchangecheck"> linea puntos'+
          '<input type="checkbox" name="" id="idic6" class="classchangecheck">'+
+         '<input type="checkbox" name="" id="idic7" class="classchangecheck">fijar'+
          
        '</div>+'
      
@@ -772,8 +790,20 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
   this.hojaActualE=ObjGiohojaactual;
   this.IndicadorSoltarSoloEnHojasCL=cllasscssindicadorasoltarsoloestoselementosenhoja;
   _this=this;
-  
   this.objmenucrearelementos=objmenucrearelementos;
+  this.menuArrastrarCrerESoltarHoja=(idElemendemenu,objmenucrearelementosx)=>{
+    addobjetoidentificadoresparaelementosmenuarrastrarenhoja (idElemendemenu,objmenucrearelementosx);
+   
+  } 
+  this.setobjmenucrearelementos=()=>{
+    objmenucrearelementos=  this.objmenucrearelementos;
+    
+    }  
+    this.getobjmenucrearelementos=()=>{
+      this.objmenucrearelementos= objmenucrearelementos;
+    return  this.objmenucrearelementos;
+      
+      }  
   this.pasarclass=function(idEl,classid){
   
     fgiovanniaddClassaElemento(idEl,classid);
@@ -840,6 +870,8 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
     FGioarrastrarsimple(id);
   }
   this.menuElementoArrastrarSoltarenHoja=function (idelemento,idhoja,clidparasoltar){
+  
+    console.log("entra uno");
   fgiovannisoltarElementodeMenuaHoja (idelemento,idhoja,clidparasoltar);
   }
   this.inicia=function(idpadrecuerpoHojas){
@@ -847,15 +879,14 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
       fGiovanniCreaUdTodo();
       this.crearrenglones("idgrilla1");
       this.hojaActualE=ObjGiohojaactual;
-      console.log("idpadrecuerpoHojasidpadrecuerpoHojasidpadrecuerpoHojas");
-      console.log(idpadrecuerpoHojas);
+  
       setTimeout(function () {
    //_this. menuElementoArrastrarSoltarenHoja ("idcrea1","idhoja1");
           _this.Coordenadasratoneneldiv("idcuerpoH");  
           fGiovanniCheckmenuboder();
           encrearhoja("idhoja1");
-  console.log("idpadrecuerpoHojasidpadrecuerpoHojasidpadrecuerpoHojas 22222222222");
-  console.log(idpadrecuerpoHojas);
+  
+  
   
   
          _this.cambiarPadreALCueropodeHojas(idpadrecuerpoHojas);
