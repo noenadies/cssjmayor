@@ -1,1 +1,898 @@
-var _0x54c1=['fromCharCode','p\x20a=[\x22\x5cc\x5ch\x5ci\x5cd\x5ch\x5cd\x22,\x22\x5cu\x5cb\x5ci\x5cN\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5c3p\x5cQ\x5c1Z\x5ch\x22,\x22\x5cs\x5cl\x5cb\x5cs\x5cb\x5cn\x5ch\x22,\x22\x5c1I\x22,\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22,\x22\x5cr\x5cd\x5cx\x5cb\x5cl\x22,\x22\x5c1I\x5cc\x5ch\x5cw\x5cb\x5cn\x5cA\x5ck\x5ce\x5ci\x5cb\x5cl\x5ce\x5ck\x5cL\x22,\x22\x5c1I\x5c1Q\x5cb\x5cz\x5c5I\x5cf\x5cb\x22,\x22\x5cs\x5cJ\x22,\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22,\x22\x5ci\x5cd\x5cs\x22,\x22\x5ck\x5cb\x5cI\x5ci\x22,\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22,\x22\x5co\x22,\x22\x5ce\x5cz\x5cj\x5cd\x5ck\x5cA\x5ci\x5cb\x22,\x22\x5cx\x5cA\x22,\x22\x5cx\x5ch\x22,\x22\x5cx\x5ch\x5cY\x22,\x22\x5cx\x5cc\x22,\x22\x5cf\x5cj\x5cj\x22,\x22\x5cj\x5cd\x5ck\x5cc\x5ch\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5cL\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5c1Q\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5c2Q\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5c3m\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5c3l\x22,\x22\x5ch\x5cd\x5ci\x5ci\x5cb\x5ch\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5c3k\x22,\x22\x5cc\x5ch\x22,\x22\x5cc\x5ch\x5cc\x5cf\x5c3j\x22,\x22\x5ck\x5cd\x5cu\x22,\x22\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x22,\x22\x5c2Y\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x22,\x22\x5cf\x5cr\x5cb\x5cf\x5cG\x5cb\x5ch\x22,\x22\x5ck\x5cb\x5cn\x5cu\x5ci\x5cr\x22,\x22\x5cs\x5cA\x5cj\x5cr\x22,\x22\x5cf\x5ck\x5ce\x5cj\x5cj\x5cu\x5cc\x5cd\x5cx\x5ce\x5cn\x5cn\x5cc\x5cj\x5cb\x5ck\x5cb\x5cf\x5cc\x5cd\x5cn\x22,\x22\x5cl\x5cb\x5cw\x5cd\x5cx\x5cb\x5cM\x5ck\x5ce\x5cj\x5cj\x22,\x22\x5c4Y\x22,\x22\x5ci\x5ce\x5cl\x5cu\x5cb\x5ci\x22,\x22\x5ce\x5ch\x5ch\x5cM\x5ck\x5ce\x5cj\x5cj\x22,\x22\x5cf\x5ck\x5cc\x5cf\x5cG\x22,\x22\x5cu\x5cb\x5ci\x5cN\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cj\x5c3p\x5cQ\x5cM\x5ck\x5ce\x5cj\x5cj\x5c3g\x5ce\x5cw\x5cb\x22,\x22\x5cc\x5cn\x5cn\x5cb\x5cl\x5c4S\x5cc\x5ch\x5ci\x5cr\x22,\x22\x5cs\x5ce\x5cu\x5cb\x5c4Q\x22,\x22\x5cd\x5cI\x5cI\x5cj\x5cb\x5ci\x5c1o\x5cb\x5cI\x5ci\x22,\x22\x5cs\x5ce\x5cu\x5cb\x5c4M\x22,\x22\x5cd\x5cI\x5cI\x5cj\x5cb\x5ci\x5c3o\x5cd\x5cs\x22,\x22\x5cw\x5cd\x5cA\x5cj\x5cb\x5cw\x5cd\x5cx\x5cb\x22,\x22\x5cX\x5cs\x5cJ\x22,\x22\x5cr\x5cb\x5ck\x5cs\x5cb\x5cl\x22,\x22\x5ch\x5cl\x5ce\x5cu\x5cu\x5ce\x5cz\x5ck\x5cb\x22,\x22\x5c2Y\x5cf\x5ck\x5cz\x5cd\x5cf\x5cJ\x22,\x22\x5cn\x5cd\x5co\x5cI\x5cA\x5cn\x5cf\x5cc\x5cd\x5cn\x5ce\x5co\x5cu\x5cc\x5cd\x22,\x22\x5ch\x5cl\x5cd\x5cs\x5cs\x5ce\x5cz\x5ck\x5cb\x22,\x22\x5c1I\x5cc\x5ch\x5cr\x5cd\x5cH\x5ce\x5cL\x22,\x22\x5ch\x5cc\x5cj\x5ce\x5cz\x5ck\x5cb\x22,\x22\x5cl\x5cb\x5cj\x5cc\x5c3D\x5ce\x5cz\x5ck\x5cb\x22,\x22\x5cb\x5cn\x5ce\x5cz\x5ck\x5cb\x22,\x22\x5c2Y\x22,\x22\x5cc\x5ch\x5cf\x5cA\x5cb\x5cl\x5cs\x5cd\x5cR\x22,\x22\x5cf\x5cr\x5cb\x5c3h\x5cA\x5cb\x5cd\x5cb\x5cJ\x5cf\x5ck\x5cA\x5cQ\x5cb\x5cn\x5ci\x5cb\x22,\x22\x5cf\x5ck\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x22,\x22\x5cb\x5ck\x22,\x22\x22,\x22\x5cl\x5cb\x5cs\x5ck\x5ce\x5cf\x5cb\x22,\x22\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x22,\x22\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5cd\x5cx\x5cb\x5cl\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5cj\x5cm\x5cC\x22,\x22\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5ce\x5cs\x5cs\x5cb\x5cn\x5ch\x22,\x22\x5cj\x5cA\x5cj\x5ci\x5cl\x5ce\x22,\x22\x5cf\x5cl\x5cb\x5ce\x5cl\x5cb\x5ck\x5cb\x5cb\x5cw\x5cn\x5ci\x5cd\x22,\x22\x5cc\x5ch\x5cl\x5cb\x5cn\x5cu\x5ck\x5cd\x5cn\x22,\x22\x5cB\x5ch\x5cc\x5cx\x5cc\x5ch\x5ct\x5cm\x22,\x22\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cu\x5cl\x5cc\x5ck\x5ck\x5ce\x5ch\x5cc\x5cx\x5cl\x5cb\x5cn\x5cu\x5ck\x5cd\x5cn\x5cm\x5cC\x22,\x22\x5cX\x5c2S\x22,\x22\x5cL\x5cX\x5cX\x5c2S\x22,\x22\x5cL\x5c2Q\x5cs\x5cJ\x22,\x22\x5ck\x5ce\x5cj\x5ci\x5cM\x5cr\x5cc\x5ck\x5ch\x22,\x22\x5cc\x5cn\x5cn\x5cb\x5cl\x5cR\x5c3o\x5c5f\x5c1o\x22,\x22\x5cc\x5ch\x5cs\x22,\x22\x5cl\x5ce\x5ci\x5cd\x5cn\x5ch\x5cc\x5cx\x5cJ\x5co\x22,\x22\x5ce\x5ck\x5ck\x22,\x22\x5cX\x22,\x22\x5c2S\x22,\x22\x5cL\x5cX\x5cX\x22,\x22\x5cl\x5cu\x5cz\x5ce\x5c5F\x5cX\x5c2R\x5co\x5cX\x5c2R\x5co\x5cX\x5c2R\x5co\x5cX\x5c5D\x22,\x22\x5cc\x5cn\x5cn\x5cb\x5cl\x5cR\x5cb\x5cc\x5cu\x5cr\x5ci\x22,\x22\x5c1I\x5cc\x5ch\x5ci\x5cd\x5ch\x5cd\x22,\x22\x5cf\x5ck\x5cz\x5cd\x5cf\x5cJ\x22,\x22\x5co\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5ci\x5cd\x5ch\x5cd\x5cm\x5cC\x22,\x22\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cf\x5cA\x5cb\x5cl\x5cs\x5cd\x5cR\x5cm\x5cC\x22,\x22\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cr\x5cd\x5cH\x5ce\x5cL\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cr\x5cd\x5cH\x5ce\x5cm\x5cC\x22,\x22\x5co\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cu\x5cl\x5cc\x5ck\x5ck\x5ce\x5cL\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cu\x5cl\x5cc\x5ck\x5ck\x5ce\x5cm\x5cC\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cw\x5ce\x5cl\x5cu\x5cb\x5cn\x5cb\x5cj\x5ch\x5cc\x5cx\x5cL\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cw\x5ce\x5cl\x5cu\x5cb\x5cn\x5cb\x5cj\x5ch\x5cc\x5cx\x5cm\x5cC\x22,\x22\x5co\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cb\x5ck\x5cL\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5cd\x5cx\x5cb\x5cl\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5cj\x5cm\x5cC\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5co\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cw\x5cb\x5cn\x5cA\x5cz\x5ce\x5cj\x5cc\x5cf\x5cd\x5cm\x5cC\x22,\x22\x5cB\x5cs\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cs\x5cm\x5cC\x5cB\x5cS\x5cs\x5cC\x22,\x22\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cw\x5ci\x5cJ\x5cL\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cz\x5cd\x5cJ\x5cw\x5cc\x5cn\x5cm\x5cC\x22,\x22\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cw\x5cf\x5cL\x5cm\x5cC\x22,\x22\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cw\x5cc\x5cl\x5cd\x5cY\x5cm\x5cC\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cf\x5cl\x5cb\x5ce\x5cL\x5cm\x5co\x5cu\x5cc\x5cd\x5ct\x5cm\x5ce\x5cf\x5ce\x5cu\x5cc\x5cd\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x22,\x22\x5cm\x5cC\x5cb\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5co\x5co\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5cw\x5cf\x5c1Q\x5cm\x5cC\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5co\x5co\x5co\x5co\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x22,\x22\x5co\x5co\x5cB\x5ch\x5cc\x5cx\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cw\x5cb\x5cn\x5cA\x5cz\x5cd\x5cl\x5ch\x5cb\x5cj\x5cm\x5cC\x22,\x22\x5co\x5co\x5co\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5cL\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x22,\x22\x5co\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5c1Q\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x22,\x22\x5co\x5co\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5c2Q\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x22,\x22\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5c3m\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x22,\x22\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5c3l\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x5co\x5ck\x5cc\x5cn\x5cb\x5ce\x5co\x5cs\x5cA\x5cn\x5ci\x5cd\x5cj\x22,\x22\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5c3k\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x22,\x22\x5cB\x5cc\x5cn\x5cs\x5cA\x5ci\x5co\x5ci\x5cQ\x5cs\x5cb\x5ct\x5cm\x5cf\x5cr\x5cb\x5cf\x5cG\x5cz\x5cd\x5cJ\x5cm\x5co\x5cn\x5ce\x5cw\x5cb\x5ct\x5cm\x5cm\x5co\x5cc\x5ch\x5ct\x5cm\x5cc\x5ch\x5cc\x5cf\x5c3j\x5cm\x5co\x5cf\x5ck\x5ce\x5cj\x5cj\x5ct\x5cm\x5cf\x5ck\x5ce\x5cj\x5cj\x5cf\x5cr\x5ce\x5cn\x5cu\x5cb\x5cf\x5cr\x5cb\x5cf\x5cG\x5cm\x5cC\x5cI\x5cc\x5cH\x5ce\x5cl\x22,\x22\x5cB\x5cS\x5ch\x5cc\x5cx\x5cC\x5c5k\x22,\x22\x5cz\x5cd\x5ch\x5cQ\x22,\x22\x5cr\x5ce\x5cj\x5cM\x5ck\x5ce\x5cj\x5cj\x22,\x22\x5cr\x5cd\x5cH\x5ce\x5c1u\x5cf\x5ci\x5cA\x5ce\x5ck\x5cN\x22,\x22\x5c1Z\x5cn\x5ch\x5cc\x5cf\x5ce\x5ch\x5cd\x5cl\x5c1c\x5cd\x5ck\x5ci\x5ce\x5cl\x5c1c\x5cd\x5ck\x5cd\x5cN\x5cn\x5cR\x5cd\x5cH\x5ce\x5cj\x5cM\x5c1o\x22,\x22\x5cd\x5cz\x5cH\x5cw\x5cb\x5cn\x5cA\x5cf\x5cl\x5cb\x5ce\x5cl\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5cj\x22,\x22\x5cw\x5cb\x5cn\x5cA\x5c1u\x5cl\x5cl\x5ce\x5cj\x5ci\x5cl\x5ce\x5cl\x5cM\x5cl\x5cb\x5cl\x5cN\x5c1c\x5cd\x5ck\x5ci\x5ce\x5cl\x5cR\x5cd\x5cH\x5ce\x22,\x22\x5cj\x5cb\x5ci\x5cd\x5cz\x5cH\x5cw\x5cb\x5cn\x5cA\x5cf\x5cl\x5cb\x5ce\x5cl\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5cj\x22,\x22\x5cu\x5cb\x5ci\x5cd\x5cz\x5cH\x5cw\x5cb\x5cn\x5cA\x5cf\x5cl\x5cb\x5ce\x5cl\x5cb\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5cj\x22,\x22\x5cs\x5ce\x5cj\x5ce\x5cl\x5cf\x5ck\x5ce\x5cj\x5cj\x22,\x22\x5ce\x5cH\x5cA\x5cj\x5ci\x5ce\x5cl\x5cN\x5cj\x5cs\x5ce\x5cf\x5cc\x5cd\x5cM\x5cA\x5cb\x5cl\x5cs\x5cd\x5cR\x5cd\x5cH\x5ce\x22,\x22\x5c3h\x5cA\x5cc\x5ci\x5ce\x5cl\x5cf\x5ck\x5ce\x5cj\x5cj\x22,\x22\x5cj\x5cb\x5ci\x5c1Z\x5cn\x5ch\x5cc\x5cf\x5ce\x5ch\x5cd\x5cl\x5c1c\x5cd\x5ck\x5ci\x5ce\x5cl\x5c1c\x5cd\x5ck\x5cd\x5cN\x5cn\x5cR\x5cd\x5cH\x5ce\x5cj\x5cM\x5c1o\x22,\x22\x5cu\x5cb\x5ci\x5c1Z\x5cn\x5ch\x5cc\x5cf\x5ce\x5ch\x5cd\x5cl\x5c1c\x5cd\x5ck\x5ci\x5ce\x5cl\x5c1c\x5cd\x5ck\x5cd\x5cN\x5cn\x5cR\x5cd\x5cH\x5ce\x5cj\x5cM\x5c1o\x22,\x22\x5cM\x5cd\x5cd\x5cl\x5ch\x5cb\x5cn\x5ce\x5ch\x5ce\x5cj\x5cl\x5ce\x5ci\x5cd\x5cn\x5cb\x5cn\x5cb\x5ck\x5ch\x5cc\x5cx\x22,\x22\x5ce\x5cH\x5cA\x5cj\x5ci\x5ce\x5cl\x5cc\x5ch\x5cf\x5cA\x5cb\x5cl\x5cs\x5cd\x5cR\x5cf\x5cd\x5cn\x5cY\x5cc\x5ci\x5cr\x22,\x22\x5cf\x5cl\x5cb\x5ce\x5cl\x5cl\x5cb\x5cn\x5cu\x5ck\x5cd\x5cn\x5cb\x5cj\x22,\x22\x5cf\x5ce\x5cw\x5cz\x5cc\x5ce\x5cl\x5c5l\x5ce\x5ch\x5cl\x5cb\x5c1u\x5c1o\x5cM\x5cA\x5cb\x5cl\x5cd\x5cs\x5cd\x5ch\x5cb\x5cR\x5cd\x5cH\x5ce\x5cj\x22,\x22\x5cu\x5cb\x5ci\x5cN\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5c5n\x5cc\x5cd\x22,\x22\x5cu\x5cb\x5ci\x5cN\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5cj\x5cM\x5ck\x5ce\x5cj\x5cj\x22,\x22\x5cu\x5cb\x5ci\x5cN\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5c3g\x22,\x22\x5ce\x5cl\x5cl\x5ce\x5cj\x5ci\x5cl\x5ce\x5cl\x5cM\x22,\x22\x5ce\x5cl\x5cl\x5ce\x5cj\x5ci\x5cl\x5ce\x5cl\x5cN\x22,\x22\x5cf\x5ce\x5cw\x5cz\x5cc\x5ce\x5cl\x5c1u\x5cn\x5cf\x5cr\x5cd\x5cQ\x5c1u\x5ck\x5ci\x5cd\x5cN\x5cf\x5cd\x5cn\x5c5p\x5ce\x5ci\x5cd\x5cn\x22,\x22\x5cw\x5cb\x5cn\x5cA\x5cz\x5ce\x5cj\x5cc\x5cf\x5cd\x22,\x22\x5cu\x5cb\x5ci\x5cN\x5cM\x5c1o\x22,\x22\x5ce\x5cl\x5cl\x5ce\x5cj\x5ci\x5cl\x5ce\x5cl\x5c1c\x5cc\x5cw\x5cs\x5ck\x5cb\x22,\x22\x5cw\x5cb\x5cn\x5cA\x5cN\x5ck\x5cb\x5cw\x5cb\x5cn\x5ci\x5cd\x5c1u\x5cl\x5cl\x5ce\x5cj\x5ci\x5cl\x5ce\x5cl\x5c1c\x5cd\x5ck\x5ci\x5ce\x5cl\x5cb\x5cn\x5cR\x5cd\x5cH\x5ce\x22,\x22\x5cc\x5cn\x5cc\x5cf\x5cc\x5ce\x22,\x22\x5cc\x5ch\x5cu\x5cl\x5cc\x5ck\x5ck\x5ce\x5cL\x22,\x22\x5cc\x5ch\x5cr\x5cd\x5cH\x5ce\x5cL\x22];q\x204f(1J){p\x203e=1i[a[1]](a[0]);$(a[3]+1J)[a[2]](3e)}q\x205y(){$(a[6])[a[5]](q(){$(y)[a[4]](2A)},q(){$(y)[a[4]](20)})}p\x205z=2b;p\x202D={3a:2,2X:2,2U:2,2N:2};q\x203H(1k,1m,1R,1O){p\x203d={3a:2*1k,2X:2*1m,2U:2*1R,2N:2*1O};K\x203d}q\x203G(v,3s,3q=a[7],3i=a[8]){p\x20F=a[3]+v;p\x203L=3q;p\x201d=3i;p\x201a=1;p\x205C=2*1a;p\x201n=$(F)[a[9]]();p\x201r=1n[a[10]];p\x203K=1n[a[11]];p\x203r=$(F)[a[4]]();p\x203J=$(F)[a[12]]();p\x201N=a[13]+3s+a[13]+3L;p\x201p={3a:2,2X:2,2U:2,2N:2};1p=2D;p\x202C={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:a[14],\x22\x5ci\x5cd\x5cs\x22:D(1r*1a)+1d,\x22\x5ck\x5cb\x5cI\x5ci\x22:D(3K*1a)+1d,\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22:D(3r*1a)+1d,\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22:D(3J*1a)+1d,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5ci\x5cd\x5cs\x22:D(1p[a[15]]*1a)+1d+1N,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5cl\x5cc\x5cu\x5cr\x5ci\x22:D(1p[a[16]]*1a)+1d+1N,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5cz\x5cd\x5ci\x5ci\x5cd\x5cw\x22:D(1p[a[17]]*1a)+1d+1N,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5ck\x5cb\x5cI\x5ci\x22:D(1p[a[18]]*1a)+1d+1N};$(a[3]+v)[a[19]](2C);K\x202C}p\x201C=0;p\x201q=0;p\x201A=0;p\x201z=0;q\x204G(){$(a[32])[a[31]](q(2I){1C=0;1q=0;1A=0;1z=0;p\x201M=a[20];E(1g(a[21])){1C=1}W{1C=0};E(1g(a[22])){1q=1}W{1q=0};E(1g(a[23])){1A=1}W{1A=0};E(1g(a[24])){1z=1}W{1z=0};E(1g(a[25])){p\x201E=1;1M=a[26];1C=1E;1q=1E;1A=1E;1z=1E}W{1M=a[20]};E(1g(a[27])){3E(1h[a[28]],O)}W{2r(1h[a[28]],1l)};E(1g(a[29])){3t(1h[a[28]],1l)}W{3C(1h[a[28]],O)};1S[a[30]](1M);2D=3H(1C,1q,1A,1z);3G(1h[a[28]],1M)})}q\x201g(v){K\x201i[a[1]](v)[a[33]]}p\x201h=2b;p\x202G=1l;p\x201w=[];q\x203F(Z){p\x202F=O;E(1w[a[34]]>0){1U(p\x20P\x203b\x201w){E(1w[P][a[28]]==Z){2F=1l;2u}}}W{1w[a[35]]({1Y:Z});2H(Z)};E(2F){}W{1w[a[35]]({1Y:Z});2H(Z)};E(2G){2G=O}}p\x202B=a[36];q\x202H(F){p\x20F=a[3]+F;$(F)[a[41]](q(2I){$(a[38])[a[37]](2B);1h=2I[a[39]];$(1h)[a[40]](2B)})}q\x204I(Z){3F(Z)}q\x204v(1V){K\x201i[a[42]](1V)}q\x204h(){$($(a[3]+2s))[a[19]](a[11],(1F[a[43]]-5b)/2)}q\x204C(v){p\x201n=$(a[3]+v)[a[9]]();p\x205c=1n[a[10]];p\x205d=1n[a[11]];K\x201n}p\x202v=0;p\x202z=0;q\x204i(v){$(a[3]+v)[a[48]](q(1e){2v=1e[a[44]]-y[a[45]];2z=1e[a[46]]-y[a[47]]})}p\x20T=0;q\x203X(2n,2P){$(a[3]+2n)[a[51]]({3B:q(1e,V){p\x201B={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:a[14],\x22\x5ci\x5cd\x5cs\x22:a[49],\x22\x5ck\x5cb\x5cI\x5ci\x22:a[49]};$(a[3]+V[a[50]][0][a[28]])[a[19]](1B)},2e:q(1e,V){}});$(a[55])[a[54]]({3A:a[52],3y:q(1e,V){5r(a[53]);1S[a[30]](V);E(T==0){2W(y)};T=T=+1;E(T!=0){T=0}}})}q\x202r(v,2m){$(a[3]+v)[a[57]](a[56])}q\x203E(v,2m){$(a[3]+v)[a[57]](a[58])}q\x203C(v,2m){$(a[3]+v)[a[51]](a[58])}q\x203t(v,2m){$(a[3]+v)[a[51]](a[56])}q\x204E(2n,2P,3z=1j){$(a[3]+2n)[a[51]]({3B:q(1e,V){p\x201B={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:a[14],\x22\x5ci\x5cd\x5cs\x22:a[49],\x22\x5ck\x5cb\x5cI\x5ci\x22:a[49]};$(a[3]+V[a[50]][0][a[28]])[a[19]](1B)},2e:q(1e,V){}});$(a[3]+2P)[a[54]]({3A:a[59]+3z,3y:q(1e,V){1S[a[30]](V[a[51]][0]);E(T==0){2W(y,V[a[51]][0])};T=T+1;E(T!=0){T=0}}})}p\x202s=a[60];p\x201b=[];p\x201D={5N:a[61]};q\x204p(1X,2V){p\x202T=O;E(1b[a[34]]>0){1U(p\x20P\x203b\x201b){E(1b[P][a[28]]==1X){2T=1l;2u}};E(!2T){1b[a[35]]({1Y:1X,3x:2V})}}W{1b[a[35]]({1Y:1X,3x:2V})}}q\x202W(3w,1T){p\x202i=1i[a[42]](a[62]);E(2i[a[34]]>0){p\x201f=a[63]+D(2i[a[34]]);1f[a[65]](a[13],a[64]);p\x203v=a[66]+1f+a[67]+1f+a[68];$(3w)[a[69]](3v);p\x202Z=$(a[3]+a[0])[a[9]]();p\x203I=2Z[a[10]];p\x206c=2Z[a[11]];p\x202x=4z;p\x202a=13;p\x206e=18;p\x201L=2;p\x201H=a[7];p\x201x=a[20];p\x201K=a[8];p\x202w=1l;1S[a[30]](1T[a[28]]);p\x203u=a[64];3u[a[5P]];p\x206i=1T[a[28]];p\x203f=O;p\x202y=2b;p\x206g=a[26];1U(p\x20P\x203b\x201b){E(1b[P][a[28]]==1T[a[28]]){3f=1l;2y=1b[P][a[6b]];1D;2u}};E(1D[a[61]]==2y){2x=18;2a=2a-3.1;2w=O;1x=a[26]};p\x201B={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:a[14],\x22\x5ci\x5cd\x5cs\x22:D(2z-3I)+a[8],\x22\x5ck\x5cb\x5cI\x5ci\x22:D(2v)+a[8],\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22:D(2x)+a[8],\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22:D(2a)+a[8],\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5ci\x5cd\x5cs\x22:D(1L)+1K+a[13]+1x+a[13]+1H,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5cl\x5cc\x5cu\x5cr\x5ci\x22:D(1L)+1K+a[13]+1x+a[13]+1H,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5cz\x5cd\x5ci\x5ci\x5cd\x5cw\x22:D(1L)+1K+a[13]+1x+a[13]+1H,\x22\x5cz\x5cd\x5cl\x5ch\x5cb\x5cl\x5cU\x5ck\x5cb\x5cI\x5ci\x22:D(1L)+1K+a[13]+1x+a[13]+1H,\x22\x5c3D\x5cU\x5cc\x5cn\x5ch\x5cb\x5cJ\x22:D(2i[a[34]])};$(a[3]+1f)[a[19]](1B);3c(1f,2s);4e(1f);E(2w){}W{2r(1f,1l)}}}p\x205Q=13;p\x201r=0;q\x204g(F){p\x206k=61;p\x201G=a[64];F=a[3]+F;p\x203N=1i[a[1]](F[a[65]](a[3],a[64]));1U(p\x20P=0;P<=60;P=P+1){1G=a[6z]+D(P);1G=1G[a[65]](a[13],a[64]);p\x203n=a[6B]+1G+a[6D]+P+a[68];p\x206m=0;$(F)[a[69]](3n);$(3N[a[6t]])[a[19]]({\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:a[14],\x22\x5ci\x5cd\x5cs\x22:D(1r)+a[8],\x22\x5ck\x5cb\x5cI\x5ci\x22:a[6s],\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22:a[6r],\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22:a[6q]});1r=1r+13}}p\x202O=2b;p\x202L={g:1};q\x204d(v){K\x20$(a[3]+v)}q\x204c(v){K\x201i[a[1]](v)}q\x203P(v){K\x20$(a[59]+v)}q\x206p(v){K\x201i[a[1]](v)}q\x206o(v){K\x20$(a[59]+v)}q\x205H(v){K\x20$(a[3]+v)}q\x204b(F,1v,3M=2L){$(a[59]+F)[a[51]]({3O:O,2h:O,4K:a[3]+1v})}q\x203c(F,1v,3M=2L){$(a[3]+F)[a[51]]({3O:O,2h:O,4K:a[3]+1v,2e:q\x202M(4J,2p){p\x202q=4C(2p[a[50]][0][a[28]]);1i[a[1]](a[4z])[a[6x]]=a[5R]+2q[a[11]]+a[13]+2q[a[10]]}})}q\x204H(v){$(a[3]+v)[a[51]]({2e:q\x202M(4J,2p){}})}q\x203Y(F){$(a[59]+F)[a[57]]({4t:a[3Q],2h:O,3R:[0,0]})}q\x204e(F){$(a[3]+F)[a[57]]({4t:a[3Q],2h:O,3R:[0,0]})}q\x205K(F){p\x202t={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:a[14],\x22\x5ck\x5cb\x5cI\x5ci\x22:a[3S]+a[1P],\x22\x5ci\x5cd\x5cs\x22:a[3S]+a[1P],\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22:a[3T]+a[1P],\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22:a[3T]+a[1P]};$(F)[a[19]]({2E})}q\x204k(2j=a[14],1k=0,1m=0,2c=a[3W]){p\x202d=D(1F[a[43]])+a[8];p\x201W=D(1F[a[4u]])+a[8];p\x202l=D(1k)+a[8];p\x202f=D(1m)+a[8];p\x202t={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:2j,\x22\x5ck\x5cb\x5cI\x5ci\x22:2f,\x22\x5ci\x5cd\x5cs\x22:2l,\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22:2d,\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22:1W,\x22\x5cz\x5ce\x5cf\x5cG\x5cu\x5cl\x5cd\x5cA\x5cn\x5ch\x5cU\x5cf\x5cd\x5ck\x5cd\x5cl\x22:2c};$(a[3Z])[a[19]]({2E})}q\x205W(2j=a[14],1k=0,1m=0,2c=a[3W]){p\x202d=D(1F[a[43]])+a[8];p\x201W=D(1F[a[4u]])+a[8];p\x202l=D(1k)+a[8];p\x202f=D(5Y)+a[8];p\x202t={\x22\x5cs\x5cd\x5cj\x5cc\x5ci\x5cc\x5cd\x5cn\x22:2j,\x22\x5ck\x5cb\x5cI\x5ci\x22:2f,\x22\x5ci\x5cd\x5cs\x22:2l,\x22\x5cY\x5cc\x5ch\x5ci\x5cr\x22:2d,\x22\x5cr\x5cb\x5cc\x5cu\x5cr\x5ci\x22:1W,\x22\x5cz\x5ce\x5cf\x5cG\x5cu\x5cl\x5cd\x5cA\x5cn\x5ch\x5cU\x5cf\x5cd\x5ck\x5cd\x5cl\x22:2c};$(a[3Z])[a[19]]({2E})}p\x201j=a[6f];q\x204A(1J){p\x204s=a[6l]+a[6h]+a[6d]+a[6a]+a[5Z]+a[4l]+a[5V]+a[5U]+a[4l]+a[5T]+a[5S]+a[5O]+a[5M]+a[5L]+1j+a[6j]+a[4r]+a[5X]+a[6A]+a[4r]+a[6C]+a[6y]+a[6w]+a[6v]+a[6u]+a[6n]+a[5J]+a[5e]+a[5a];a[68];$(a[4Z])[a[2]](4s)}q\x204X(){}q\x204m(v,1y){E(!$(a[3]+v)[a[4q]](1y)){$(a[3]+v)[a[40]](1y)}}q\x204j(v,1y){E($(a[3]+v)[a[4q]](1y)){$(a[3]+v)[a[37]](1y)}}p\x201s;q\x204U(){y[a[4x]]=2O;y[a[2K]]=1j;1s=y;y[a[2g]]=1D;y[a[4T]]=(4o,4n)=>{4p(4o,4n)};y[a[4P]]=()=>{1D=y[a[2g]]};y[a[4O]]=()=>{y[a[2g]]=1D;K\x20y[a[2g]]};y[a[4N]]=q(2o,2k){4m(2o,2k)};y[a[4L]]=(1k,1m,1R,1O)=>{4k(1k,1m,1R,1O)};y[a[4R]]=q(2o,2k){4j(2o,2k)};y[a[4V]]=q(2J){1j=2J;1s[a[2K]]=1j};y[a[5h]]=q(2J){1s[a[2K]]=1j;K\x201j};y[a[5v]]=q\x202M(v){4i(v)};y[a[2A]]=q(){4h()};y[a[4y]]=q(v){4g(v)};y[a[4F]]=q(1J){4f(1J)};y[a[5g]]=q(v){K\x204d(v)};y[a[5B]]=q(v){K\x203P(v)};y[a[5A]]=q(v){K\x204c(v)};y[a[5w]]=q(1t,1v,4a){4b(1t,1v,4a)};y[a[5t]]=q(1t){3c(1t)};y[a[5s]]=q(1t){3Y(1t)};y[a[5q]]=q(3V,3U){3X(3V,3U)};y[a[5j]]=q(1V){K\x204v(1V)};y[a[5E]]=q(v){4H(v)};y[a[5m]]=q(4w,Z,4D){4E(4w,Z,4D)};y[a[5o]]=q(4B){4A();y[a[4y]](a[5i]);y[a[4x]]=2O;5u(q(){1s.5x(a[60]);4G();4I(a[5G]);1s[a[4F]](4B)},4W)};y[a[2A]]()}','||||||||||_0xf8f3|x65|x69|x6F|x61|x63||x64|x74|x73|x6C|x72|x22|x6E|x20|var|function|x68|x70|x3D|x67|_0xebe2xe|x6D|x76|this|x62|x75|x3C|x3E|String|if|_0xebe2x12|x6B|x6A|x66|x78|return|x31|x43|x45|false|_0xebe2x2e|x79|x48|x2F|identracrear|x2D|_0xebe2x40|else|x30|x77|_0xebe2x2c|||||||||||_0xebe2x15|objetoidentificadoresparaelementosmenuarrastrarenhoja|x53|_0xebe2x14|_0xebe2x3b|_0xebe2x54|sich|actualelementoactivo|document|cllasscssindicadorasoltarsoloestoselementosenhoja|_0xebe2x8|true|_0xebe2x9|_0xebe2x17|x4C|_0xebe2x1d|varv2|topx|_this|_0xebe2x98|x41|_0xebe2x76|clickaenhojas|_0xebe2x5e|_0xebe2x8f|varv4|varv3|_0xebe2x41|varv1|objmenucrearelementos|_0xebe2x26|window|_0xebe2x69|_0xebe2x5d|x23|_0xebe2x2|_0xebe2x5f|_0xebe2x5c|_0xebe2x25|_0xebe2x1c|_0xebe2xb|84|x32|_0xebe2xa|console|_0xebe2x52|for|_0xebe2x33|_0xebe2x86|_0xebe2x4d|id|x49|||||||||||_0xebe2x5a|null|_0xebe2x84|_0xebe2x85|drag|_0xebe2x88|120|disabled|_0xebe2x53|_0xebe2x83|_0xebe2x96|_0xebe2x87|_0xebe2x43|_0xebe2x3e|_0xebe2x95|_0xebe2x7b|_0xebe2x7c|deshabilitarEresizable|containeridcuerpoH|_0xebe2x81|break|ratondivx|_0xebe2x60|_0xebe2x59|_0xebe2x64|ratondivy|130|varclassgiovanniselecion|_0xebe2x1e|valoresparacssborder|css1|_0xebe2x2d|solounavesgetelementoconClick|activavlivkenhoja|_0xebe2x24|_0xebe2x97|119|objetopropiedadesFGioarrastrar|_0xebe2x79|vdw|ObjGiohojaactual|_0xebe2x3f|x33|x2C|x25|_0xebe2x4f|vu|_0xebe2x4e|fgiovannicrearelementos|vd|x2E|_0xebe2x56|||||||||||vi|in|FGioarrastrarE|_0xebe2xc|_0xebe2x3|_0xebe2x63|x4E|x71|_0xebe2x11|x37|x36|x35|x34|_0xebe2x6b|x54|x42|_0xebe2x10|_0xebe2x1a|_0xebe2xf|deshabilitarEdraggable|_0xebe2x61|_0xebe2x55|_0xebe2x51|creareleemnto|drop|_0xebe2x48|accept|stop|habilitarEdraggable|x7A|habilitarEresizable|getelementoconClick|fGiovannicreaobjgGeneralcs|creavaloresparacssborder|_0xebe2x57|_0xebe2x1b|_0xebe2x19|_0xebe2x13|_0xebe2x77|_0xebe2x6a|snap|fGiovanniElementosClass|82|grid|83|85|_0xebe2x9b|_0xebe2x9a|86|menubassico|fGiovanniresizableC|88|||||||||||_0xebe2x99|FGioarrastrarC|fGiovanniElementoN|fGiovanniElemento|fGiovanniresizableE|fgiovannidarpadrealidtodoHoja|Fgiovannicrearrenglones|fGiovanniajustaridcuerpoHconinnerWidth|fGiovanniCoordenadasratoneneldiv|fgiovanniremoveClassaElemento|ajustaridtodoycuerpo|95|fgiovanniaddClassaElemento|_0xebe2x94|_0xebe2x93|addobjetoidentificadoresparaelementosmenuarrastrarenhoja|117|104|_0xebe2x8c|handles|87|fGiovanniGetElementosporClass|_0xebe2x9c|118|131|80|fGiovanniCreaUdTodo|_0xebe2x9e|fGiovanniGetPos|_0xebe2x9d|fgiovannisoltarElementodeMenuaHoja|132|fGiovanniCheckmenuboder|FGioarrastrarsimple|encrearhoja|_0xebe2x7a|containment|125|x59|124|123|122|x58|126|x57|121|DiagramadorCOREgio|127|1000|fGiovanniesteElementoesarrastrarySoltarenHoja|x2A|116|||||||||||115|570|_0xebe2x36|_0xebe2x37|114|x4D|133|128|144|140|x2B|x50|142|x47|143|x52|139|alert|138|137|setTimeout|129|136|Coordenadasratoneneldiv|fgiovannimenulateralinicia|objgGeneralcs|135|134|_0xebe2x16|x29|141|x28|145|fgetEG|x39|113|fGiovanniidgrillahoja1|102|101|chequeoexcluyente|100|70|intconshalturenglon|81|99|98|97|96|ajustaridtodoyhoja|105|290|94|||||||||||93|71|_0xebe2x58|92|_0xebe2x5b|89|_0xebe2x65|91|_0xebe2x62|103|_0xebe2x68|90|_0xebe2x6c|112|fgetEClass|fgetEN|77|76|75|78|111|110|109|79|108|72|106|73|107|74','replace','\x5cw+'];(function(_0x3613a,_0x5be828){var _0x54c1a9=function(_0x5be3d7){while(--_0x5be3d7){_0x3613a['push'](_0x3613a['shift']());}};_0x54c1a9(++_0x5be828);}(_0x54c1,0xce));var _0x5be3=function(_0x3613a,_0x5be828){_0x3613a=_0x3613a-0x121;var _0x54c1a9=_0x54c1[_0x3613a];return _0x54c1a9;};var _0x5ced1b=_0x5be3;eval(function(_0x5cb294,_0x5d2d07,_0x293fe3,_0x563627,_0x38b780,_0x499f42){var _0xfb3f75=_0x5be3;_0x38b780=function(_0x4b398c){var _0x410045=_0x5be3;return(_0x4b398c<_0x5d2d07?'':_0x38b780(parseInt(_0x4b398c/_0x5d2d07)))+((_0x4b398c=_0x4b398c%_0x5d2d07)>0x23?String[_0x410045(0x125)](_0x4b398c+0x1d):_0x4b398c['toString'](0x24));};if(!''[_0xfb3f75(0x123)](/^/,String)){while(_0x293fe3--){_0x499f42[_0x38b780(_0x293fe3)]=_0x563627[_0x293fe3]||_0x38b780(_0x293fe3);}_0x563627=[function(_0xeca2c2){return _0x499f42[_0xeca2c2];}],_0x38b780=function(){var _0x5b8834=_0xfb3f75;return _0x5b8834(0x124);},_0x293fe3=0x1;};while(_0x293fe3--){_0x563627[_0x293fe3]&&(_0x5cb294=_0x5cb294[_0xfb3f75(0x123)](new RegExp('\x5cb'+_0x38b780(_0x293fe3)+'\x5cb','g'),_0x563627[_0x293fe3]));}return _0x5cb294;}(_0x5ced1b(0x121),0x3e,0x19c,_0x5ced1b(0x122)['split']('|'),0x0,{}));
+
+
+function fgiovannidarpadrealidtodoHoja(idpadre){
+    var eltodo=document.getElementById("idtodo");
+  $("#"+idpadre).prepend(eltodo);
+  }
+  
+  
+  
+  
+  
+  function fgiovannimenulateralinicia(){
+  
+      $("#idmenulateral1").hover(function(){
+    $(this).width(130);
+        }, function(){
+          $(this).width(20);
+      });
+    }
+  
+  var objgGeneralcs=null;
+  var valoresparacssborder={
+    vi:2,
+    vd:2,
+    vu:2,
+    vdw:2,
+  
+  
+   }
+  
+   function creavaloresparacssborder (p1,p2,p3,p4) {  
+    var valoresparacssbord={
+    vi:2*p1,
+    vd:2*p2,
+    vu:2*p3,
+    vdw:2*p4,
+  
+  
+   }
+  
+     return valoresparacssbord;
+   }
+  function fGiovannicreaobjgGeneralcs(id,tipodelinea,colo="#2eb9ce",unidadp="px"){
+    var selector="#"+id;
+    var color=colo;
+    var unidadpx=unidadp;
+    var conversionunidad=1;
+    var valorunidad=2*conversionunidad;
+   var position = $(selector).position();
+   var topx = position.top;
+   var leftx = position.left;
+   var widthx=$(selector).width();
+   var heightx=$(selector).height();
+   var addborde=" "+ tipodelinea+" "+ color;
+   var ov={
+    vi:2,
+    vd:2,
+    vu:2,
+    vdw:2,
+  
+  
+   }
+   ov=valoresparacssborder;
+    var objgGeneral={
+      "position": "absolute",
+  "top": String(topx*conversionunidad)+unidadpx,
+  "left": String(leftx*conversionunidad)+unidadpx,
+  "width":String(widthx*conversionunidad)+unidadpx,
+  "height":String(heightx*conversionunidad)+unidadpx,
+      "border-top":String(ov.vu*conversionunidad)+unidadpx+addborde,
+  "border-right":  String(ov.vd*conversionunidad)+unidadpx+addborde,
+  "border-bottom":String(ov.vdw*conversionunidad)+unidadpx+addborde,
+  "border-left":String(ov.vi*conversionunidad)+unidadpx+addborde, 
+    }
+    
+    
+    $("#"+id).css(objgGeneral);
+    return objgGeneral;
+  }
+  var varv1=0;
+  var varv2=0;
+  var varv3=0;
+  var varv4=0;
+  function fGiovanniCheckmenuboder(){
+  
+    $(".classchangecheck").change(function (e) { 
+   
+      
+     varv1=0;
+  varv2=0;
+  varv3=0;
+   varv4=0;
+  
+   var vaconlineapunteada="solid";
+   
+  if(sich("idic1")){
+    varv1=1;
+    
+  }
+  else{
+    varv1=0;
+  }
+  if(sich("idic2")){
+    varv2=1;
+  
+    
+  }
+  else{
+    varv2=0;
+  }
+  if(sich("idic3")){
+    varv3=1;
+  }
+  else{
+    varv3=0;
+  }
+  if(sich("idic4")){
+    varv4=1;
+  }
+  else{
+    varv4=0;
+  }
+  if(sich("idic5")){
+    var tamapix=1;
+    vaconlineapunteada="dotted";
+    varv1=tamapix;
+    varv2=tamapix;
+    varv3=tamapix;
+    varv4=tamapix;
+  }
+  else{
+    vaconlineapunteada="solid";
+  }
+  
+  if(sich("idic6")){
+    habilitarEresizable(actualelementoactivo.id,false);
+  
+  }
+  else{
+    deshabilitarEresizable(actualelementoactivo.id,true);
+  
+  }
+  
+  if(sich("idic7")){
+  
+    deshabilitarEdraggable(actualelementoactivo.id,true);
+  
+  }
+  else{
+    habilitarEdraggable(actualelementoactivo.id,false);
+    
+  }
+  console.log(vaconlineapunteada);
+  valoresparacssborder=creavaloresparacssborder(varv1,varv2,varv3,varv4);
+   //border: 5px dotted #1C6EA4;
+  /* if(varv1==0&&varv2==0&&varv3==0&&varv4==0){
+    vaconlineapunteada="dotted";
+  } */
+      fGiovannicreaobjgGeneralcs(actualelementoactivo.id,vaconlineapunteada);
+      
+    });
+  }
+  
+  function sich(id) {
+    return document.getElementById(id).checked;
+    }
+  
+  var actualelementoactivo=null;
+  var solounavesgetelementoconClick=true;
+  var clickaenhojas=[];
+  
+  function getelementoconClick(idhoja){
+    var tengounahojaigual=false;
+    if(clickaenhojas.length>0){
+  for(var i in clickaenhojas){
+  if(clickaenhojas[i].id==idhoja){
+    tengounahojaigual=true;
+    break;
+  }
+  }
+    }
+    else{
+      clickaenhojas.push({id:idhoja});
+      activavlivkenhoja(idhoja);
+    }
+  
+    if(tengounahojaigual){
+  
+    }
+    else{
+      clickaenhojas.push({id:idhoja});
+      activavlivkenhoja(idhoja);
+    }
+    if(solounavesgetelementoconClick){
+      solounavesgetelementoconClick=false;
+     
+    }
+  }
+  
+  var varclassgiovanniselecion="classgiovanniselecion";
+  function activavlivkenhoja(selector){
+    var selector="#"+selector
+    $(selector).click(function (e) { 
+      $("*").removeClass(varclassgiovanniselecion);
+  
+      
+        actualelementoactivo=e.target;
+     
+        
+  
+        $(actualelementoactivo).addClass(varclassgiovanniselecion);
+  });
+  }
+  
+  
+  function encrearhoja(idhoja) { getelementoconClick(idhoja); }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function fGiovanniGetElementosporClass(cl) {
+      return document.getElementsByClassName(cl);
+  }
+  function fGiovanniajustaridcuerpoHconinnerWidth () {
+       
+      
+      $($("#"+containeridcuerpoH)).css("left", (window.innerWidth-570)/2);
+  
+  
+  
+    }
+  
+  function fGiovanniGetPos(id){
+      var position = $("#"+id).position();
+      var top = position.top;
+      var left = position.left;
+      return position;
+    }
+    var ratondivx=0;
+    var ratondivy=0;
+    function fGiovanniCoordenadasratoneneldiv(id) {
+    
+      $("#"+id).mousemove(function(event){
+        ratondivx = event.pageX - this.offsetLeft;
+        ratondivy= event.pageY - this.offsetTop;
+            //	$("#texto3").text("Coordenadas del ratón dentro del elemento: " + x + ", " + y);
+        
+         
+            
+          });
+          
+         
+      }
+    var identracrear=0;
+    function menubassico(draggablex,droppable){
+  
+      
+    
+      $( "#"+draggablex ).draggable({
+        stop: function( event, ui ) {
+    
+          
+       var objcss1={
+      "position": "absolute",
+    "top":"0px",
+    
+    "left": "0px",
+    //"width": "80px",
+    //"height": "22px",
+    //"background-color": "rgb(56, 49, 121)",
+    //"z-index":String(hijosconclelemento.length)
+    }
+          $("#"+ui.helper[0].id).css(objcss1);
+        },
+        drag: function( event, ui ) {
+    
+        }
+      });
+      $( "#idhoja1" ).droppable({
+        accept: ".clbocx",
+          drop: function( event, ui ) {
+    alert("no funciona gio");
+            console.log(ui);
+      
+      if(identracrear==0){
+        fgiovannicrearelementos(this);
+      }
+      identracrear=identracrear=+1;
+      if(identracrear!=0){
+              identracrear=0;
+            }
+        }
+      });
+    }
+    
+  
+  
+    function deshabilitarEresizable(id, hablitar){
+    /*   $( "#"+id).resizable({
+        disabled: hablitar
+      }); */
+      $( "#"+id).resizable( "disable" );
+    }
+    function habilitarEresizable(id, hablitar){
+  
+      
+      $( "#"+id).resizable( "enable" );
+  
+    }
+    function habilitarEdraggable(id, hablitar){
+  
+       
+      $( "#"+id).draggable( "enable" );
+     
+       }
+       function deshabilitarEdraggable(id, hablitar){
+  
+        $( "#"+id).draggable( "disable" );
+        }
+    function fgiovannisoltarElementodeMenuaHoja(draggablex,droppable,clid=cllasscssindicadorasoltarsoloestoselementosenhoja){
+  
+      
+    console.timeLog("entra");
+      $( "#"+draggablex ).draggable({
+        stop: function( event, ui ) {
+    
+          
+       var objcss1={
+      "position": "absolute",
+    "top":"0px",
+    
+    "left": "0px",
+    //"width": "80px",
+    //"height": "22px",
+    //"background-color": "rgb(56, 49, 121)",
+    //"z-index":String(hijosconclelemento.length)
+    }
+          $("#"+ui.helper[0].id).css(objcss1);
+        },
+        drag: function( event, ui ) {
+    
+        }
+      });
+      $( "#"+droppable ).droppable({
+        accept: "."+clid,
+          drop: function( event, ui ) {
+    
+            console.log(ui.draggable[0]);
+         
+            
+   
+        
+            
+      if(identracrear==0){
+        fgiovannicrearelementos(this,ui.draggable[0]);
+      }
+      identracrear=identracrear+1;
+      if(identracrear!=0){
+              identracrear=0;
+            }
+        }
+      });
+    }
+    var containeridcuerpoH="idcuerpoH";
+    var objetoidentificadoresparaelementosmenuarrastrarenhoja=[];
+    var objmenucrearelementos={chequeoexcluyente:"chequeoexcluyente"}
+    //addobjetoidentificadoresparaelementosmenuarrastrarenhoja();
+  function addobjetoidentificadoresparaelementosmenuarrastrarenhoja (idx,creareleemnto) { 
+    var tengoidx=false;
+    if(objetoidentificadoresparaelementosmenuarrastrarenhoja.length>0){
+  for(var i in objetoidentificadoresparaelementosmenuarrastrarenhoja){
+    if(objetoidentificadoresparaelementosmenuarrastrarenhoja[i].id==idx){
+      tengoidx=true;
+  break;
+    }
+    
+  }
+  
+  if(!tengoidx){
+    objetoidentificadoresparaelementosmenuarrastrarenhoja.push({id:idx,creareleemnto:creareleemnto });
+   
+  }
+    }
+    else{
+      objetoidentificadoresparaelementosmenuarrastrarenhoja.push({id:idx,creareleemnto:creareleemnto });
+   
+    }
+   }
+    function fgiovannicrearelementos(hoja, elementodelmenucrearNativo) {
+      var hijosconclelemento= document.getElementsByClassName("clelemento"); 
+      if(hijosconclelemento.length>0){
+    
+    var idagenerar="el"+String(hijosconclelemento.length);
+    idagenerar.replace(" ","");
+    var creaesto=' <div id="'+idagenerar+'" class="clelemento classoverelementos">'+idagenerar+'</div>';
+  
+    
+    $(hoja).append(creaesto);
+    var positionpadre= $("#"+"idtodo").position();
+    var toppadre = positionpadre.top;
+    var leftpadre = positionpadre.left;
+  
+  /*   var estecss={
+      "position": positionabs,
+      "top": String(top)+unidadmedida,
+      "left": String(left)+unidadmedida,
+      "width": String(wi)+unidadmedida,
+      "height": String(he)+unidadmedida,
+      
+      "border-top":String(b1)+unidadmedida+" "+ linetipo+" "+ colorline,
+      "border-right":String(b1)+unidadmedida+" "+ linetipo+" "+ colorline,
+      "border-bottom":String(b1)+unidadmedida+" "+ linetipo+" "+ colorline,
+      "border-left":String(b1)+unidadmedida+" "+ linetipo+" "+ colorline,
+        
+      } */
+    var anchodefinitivo=80;
+    var alturarenglon=13;
+    var anchochebox1=18;
+    var anchoborder=2;
+    var colorline="#2eb9ce";
+    var linetipo="solid";
+    var unidadmedida="px";
+  
+    var iniciaconresize=true;
+  console.log(elementodelmenucrearNativo.id);
+  var str="";
+  str.sustra
+  var idtemporales=elementodelmenucrearNativo.id;
+  var tengoelemid=false;
+  var esteidconobjmenucrearelementos=null;
+  var borderestipo="dotted";
+  //border: 5px dotted #1C6EA4;
+  for(var i in objetoidentificadoresparaelementosmenuarrastrarenhoja){
+  
+    if(objetoidentificadoresparaelementosmenuarrastrarenhoja[i].id==elementodelmenucrearNativo.id){
+      tengoelemid=true;
+      esteidconobjmenucrearelementos=objetoidentificadoresparaelementosmenuarrastrarenhoja[i].creareleemnto;
+      objmenucrearelementos
+      break;
+    }
+    
+  }
+    if(objmenucrearelementos.chequeoexcluyente==esteidconobjmenucrearelementos){
+      anchodefinitivo=18;
+      alturarenglon=alturarenglon-3.1;
+      iniciaconresize=false;
+      linetipo="dotted";
+    }
+    var objcss1={
+      "position": "absolute",
+    "top":String(ratondivy-toppadre)+"px",
+    
+    "left": String(ratondivx) +"px",
+    "width": String(anchodefinitivo)+"px",
+    "height":String(alturarenglon)+"px",
+    //"background-color": "rgb(256,256,256,0)",
+        
+    "border-top":String(anchoborder)+unidadmedida+" "+ linetipo+" "+ colorline,
+    "border-right":String(anchoborder)+unidadmedida+" "+ linetipo+" "+ colorline,
+    "border-bottom":String(anchoborder)+unidadmedida+" "+ linetipo+" "+ colorline,
+    "border-left":String(anchoborder)+unidadmedida+" "+ linetipo+" "+ colorline,
+    "z-index":String(hijosconclelemento.length)
+    }
+    $("#"+idagenerar).css(objcss1);
+    FGioarrastrarE(idagenerar,containeridcuerpoH);
+    fGiovanniresizableE(idagenerar);
+    if(iniciaconresize){
+     // fGiovanniresizableE(idagenerar);
+    }
+    else{
+      deshabilitarEresizable(idagenerar,true);
+    }
+  
+  
+  /* $(".classoverelementos").mouseover(function () { 
+    
+  
+  $("#"+this.id).css("background-color","rgb(81, 221, 135)");
+  
+  });
+  
+  $(".classoverelementos").mouseout(function () { 
+    $("#"+this.id).css("background-color","rgb(81, 221, 135,0)");
+  }); */
+  
+  
+     }
+    
+     
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  var intconshalturenglon=13;
+  var topx=0;
+    function Fgiovannicrearrenglones(selector){
+      var informacion=61;
+      var idrenglon="";
+      selector="#"+selector;
+      var elemnetpadre=document.getElementById(selector.replace("#",""));
+      for(var i=0; i<=60;i=i+1){
+        idrenglon="idrenglon"+String(i);
+        idrenglon=idrenglon.replace(" ","");
+        var esteren='<divid="'+idrenglon+'" class="clgrilladivrenglon">'+i+'</div>';
+        var ctop=0;
+      
+        
+        $(selector).append(esteren);
+        $(elemnetpadre.lastChild).css(
+          {
+            "position": "absolute",
+      "top": String(topx)+"px",
+      "left": "0%",
+      "width": "100%",
+      "height": "13px",
+          }
+        );
+        topx=topx+13;
+      }
+  
+  
+    }
+  
+  
+  var ObjGiohojaactual=null;
+  
+  var objetopropiedadesFGioarrastrar={
+      g:1
+  }
+  function fGiovanniElemento(id) {
+      return $("#"+id);
+    }
+  function fGiovanniElementoN(id) {
+      return document.getElementById(id);
+    }
+    function fGiovanniElementosClass(id) {
+      return $("."+id);
+    }
+  
+   
+  function fgetEN (id) {
+      return document.getElementById(id);
+  }
+  function fgetEClass (id) {
+      return $("."+id);
+  }
+  function fgetEG (id) {
+      return $("#"+id);
+  }
+  
+  
+  function FGioarrastrarC(selector,idct,objk=objetopropiedadesFGioarrastrar){
+  
+      $( "."+selector ).draggable({
+              snap: false,
+              disabled: false,
+              containment: "#"+idct,
+             // grid: [ 1, 1 ]
+          });
+        
+  }
+  
+  function FGioarrastrarE(selector,idct,objk=objetopropiedadesFGioarrastrar){
+  
+      $( "#"+selector ).draggable({
+          snap: false,
+          disabled: false,
+          containment: "#"+idct,
+         // grid: [ 1, 1 ]
+         drag:function name(a,b) {
+          var apos= fGiovanniGetPos(b.helper[0].id)
+          document.getElementById("idp").innerHTML="ratondivx "+apos.left+" "+apos.top;
+         }
+      });
+    
+  }
+  function FGioarrastrarsimple(id){
+  
+    $( "#"+id ).draggable({
+       
+      
+   
+       drag:function name(a,b) {
+  
+        
+       }
+    });
+  
+  }
+  function fGiovanniresizableC (selector){
+  /*    $( selector ).resizable({
+         // helper: "miclasscambiaformahelper",
+          disabled: false,
+          handles: "all",
+     
+          $( "#resizable" ).resizable();
+          ghost: true,
+          grid: [ 0, 0 ]
+  
+      });  */
+  
+      $( "."+selector ).resizable({
+          handles: "all",
+          disabled: false,
+          grid: [ 0, 0 ]
+      });
+      
+   /*    $(selector).resizable({
+          helper: "ayuda"
+      });
+   */
+     
+  }
+  
+  function fGiovanniresizableE (selector){
+      /*    $( selector ).resizable({
+             // helper: "miclasscambiaformahelper",
+              disabled: false,
+              handles: "all",
+         
+              $( "#resizable" ).resizable();
+              ghost: true,
+              grid: [ 0, 0 ]
+      
+          });  */
+      
+          $( "#"+selector ).resizable({
+              handles: "all",
+              disabled: false,
+              grid: [ 0, 0 ]
+          });
+          
+       /*    $(selector).resizable({
+              helper: "ayuda"
+          });
+       */
+         
+      }
+  function fGiovanniidgrillahoja1(selector){
+      var css1={
+          "position": "absolute",
+          "left": "0"+"%",
+          "top": "0"+"%",
+          "width": "100"+"%",
+          "height": "100"+"%"
+        //  "background-color": "dodgerblue",
+      }
+  
+      $(selector).css({
+          css1
+      });
+  }
+  
+  function ajustaridtodoycuerpo(absolute="absolute",p1=0,p2=0,backgroundcolor="rgba(0, 0, 0, 0)") {
+  
+  var wx=String(window.innerWidth)+"px";
+  var hx=String(window.innerHeight)+"px";
+  var eltop=String(p1)+"px";
+  var elleft=String(p2)+"px";
+    var css1={
+      "position": absolute,
+      "left": elleft,
+      "top": eltop,
+      "width": wx,
+      "height": hx,
+  "background-color": backgroundcolor,
+  }
+  
+  $("#idtodo").css({
+      css1
+  });
+  
+    }
+    function ajustaridtodoyhoja(absolute="absolute",p1=0,p2=0,backgroundcolor="rgba(0, 0, 0, 0)") {
+  
+      var wx=String(window.innerWidth)+"px";
+      var hx=String(window.innerHeight)+"px";
+      var eltop=String(p1)+"px";
+      var elleft=String(290)+"px";
+        var css1={
+          "position": absolute,
+          "left": elleft,
+          "top": eltop,
+          "width": wx,
+          "height": hx,
+      "background-color": backgroundcolor,
+      }
+      
+      $("#idtodo").css({
+          css1
+      });
+    
+        }
+  var cllasscssindicadorasoltarsoloestoselementosenhoja="clbocx";
+  function fGiovanniCreaUdTodo(idpadre){
+      var stidtodo='  <div id="idtodo">'+
+      
+      '<div id="idcuerpoH">'+
+        '<div id="idhoja1" class="clhoja">'+
+    
+        '  <div id="idgrilla1" class="clgrilla"></div>'+
+         ' <div id="idmargenesdiv1" class="clmargenesdiv">'+
+           
+         ' </div>'+
+        '  <div id="el1" class="clelemento classoverelementos"></div>'+
+      '  </div>'+
+    
+    
+     ' </div>'+
+      
+      
+    
+  
+  
+    ' <div id="idmenubasico">'+
+     '<p id="idp"></p>'+
+         '<div id="idmtx1" class="clboxmin">'+
+    ' <div class="clmc1">'+
+    ' <div class="clmirow"><div id="idcrea1" gio="acagio" class="'+cllasscssindicadorasoltarsoloestoselementosenhoja+'">e</div></div>'+
+     
+  '   </div>'+
+    ' <div class="clmc2"></div>'+
+    '     </div>'+
+     
+    '   </div>'+
+     
+     
+     '  <div id="idmenubordes">'+
+      '   <input type="checkbox" name="" id="idic1" class="classchangecheck">'+
+        ' <input type="checkbox" name="" id="idic2" class="classchangecheck">'+
+       '  <input type="checkbox" name="" id="idic3" class="classchangecheck">'+
+         '<input type="checkbox" name="" id="idic4" class="classchangecheck">'+
+         '<input type="checkbox" name="" id="idic5" class="classchangecheck"> linea puntos'+
+         '<input type="checkbox" name="" id="idic6" class="classchangecheck">'+
+         '<input type="checkbox" name="" id="idic7" class="classchangecheck">fijar'+
+         
+       '</div>+'
+     
+    
+    '</div>'; // fin de  todo idtodo
+    
+      $("body").prepend(stidtodo);
+    }
+    
+    function fGiovanniesteElementoesarrastrarySoltarenHoja() {
+  
+      }
+    function  fgiovanniaddClassaElemento(id,className) { 
+  
+      if(!$("#"+id).hasClass(className)){
+        $("#"+id).addClass(className);
+      
+        
+      }
+    
+      
+      
+     }
+    function  fgiovanniremoveClassaElemento(id,className) {
+  
+      
+      if($("#"+id).hasClass(className)){
+        $("#"+id).removeClass(className);
+      }
+   
+      
+  
+      }
+  
+  
+  //////////// fin demis funciones
+  
+  
+  var _this;
+  
+  function  DiagramadorCOREgio(){
+  this.hojaActualE=ObjGiohojaactual;
+  this.IndicadorSoltarSoloEnHojasCL=cllasscssindicadorasoltarsoloestoselementosenhoja;
+  _this=this;
+  this.objmenucrearelementos=objmenucrearelementos;
+  this.menuArrastrarCrerESoltarHoja=(idElemendemenu,objmenucrearelementosx)=>{
+    addobjetoidentificadoresparaelementosmenuarrastrarenhoja (idElemendemenu,objmenucrearelementosx);
+   
+  } 
+  this.setobjmenucrearelementos=()=>{
+    objmenucrearelementos=  this.objmenucrearelementos;
+    
+    }  
+    this.getobjmenucrearelementos=()=>{
+      this.objmenucrearelementos= objmenucrearelementos;
+    return  this.objmenucrearelementos;
+      
+      }  
+  this.pasarclass=function(idEl,classid){
+  
+    fgiovanniaddClassaElemento(idEl,classid);
+  
+  }
+  this.ajustarEspacioCuerpoHoja=(p1,p2,p3,p4)=>{
+    ajustaridtodoycuerpo(p1,p2,p3,p4);
+  }
+  this.quitarclass=function(idEl,classid){
+    fgiovanniremoveClassaElemento(idEl,classid);
+    
+    }
+  this.setIndicadorSoltarSoloEnHojasCL=function(classcc){
+    cllasscssindicadorasoltarsoloestoselementosenhoja=classcc;
+     _this.IndicadorSoltarSoloEnHojasCL=cllasscssindicadorasoltarsoloestoselementosenhoja;
+  }
+  this.getIndicadorSoltarSoloEnHojasCL=function(classcc){
+    _this.IndicadorSoltarSoloEnHojasCL=cllasscssindicadorasoltarsoloestoselementosenhoja;
+    return cllasscssindicadorasoltarsoloestoselementosenhoja;
+  }
+  this.Coordenadasratoneneldiv=function name(id) {
+      fGiovanniCoordenadasratoneneldiv(id);
+  }
+  this.ajustaridcuerpoHconwith=function () {
+      fGiovanniajustaridcuerpoHconinnerWidth();
+    }
+  this.crearrenglones=function(id){
+      Fgiovannicrearrenglones(id);
+  }
+  
+  this.cambiarPadreALCueropodeHojas=function(idpadre){
+    fgiovannidarpadrealidtodoHoja(idpadre)
+  }
+  
+  this.getElementoGio=function (id) { 
+     return fGiovanniElemento(id);
+   }
+   this.getElementosClass=function (id) { 
+      return fGiovanniElementosClass(id);
+    }
+   
+   this.getElementoN=function (id) { 
+      return fGiovanniElementoN(id);
+    }
+      this.arrastrarC=function(s,idct,obj){
+          FGioarrastrarC(s,idct,obj);
+      }
+  
+      this.arrastrarE=function(s){
+          FGioarrastrarE(s);
+      } 
+      this.cambiarAnchoyAltoEconRaton=function(s){
+          fGiovanniresizableC(s);
+      }
+  this.menubasico=function (idcrea1,idhoja1) {
+      menubassico(idcrea1,idhoja1);
+  }
+  
+  this.getECL=function (cl) {
+     return fGiovanniGetElementosporClass(cl); 
+  }
+  
+  this.arrastrarSimple=function(id){
+    FGioarrastrarsimple(id);
+  }
+  this.menuElementoArrastrarSoltarenHoja=function (idelemento,idhoja,clidparasoltar){
+  fgiovannisoltarElementodeMenuaHoja (idelemento,idhoja,clidparasoltar);
+  }
+  this.inicia=function(idpadrecuerpoHojas){
+     
+      fGiovanniCreaUdTodo();
+      this.crearrenglones("idgrilla1");
+      this.hojaActualE=ObjGiohojaactual;
+  
+      setTimeout(function () {
+   //_this. menuElementoArrastrarSoltarenHoja ("idcrea1","idhoja1");
+          _this.Coordenadasratoneneldiv("idcuerpoH");  
+          fGiovanniCheckmenuboder();
+          encrearhoja("idhoja1");
+  
+  
+  
+  
+         _this.cambiarPadreALCueropodeHojas(idpadrecuerpoHojas);
+      },1000);
+  }
+  
+  this.ajustaridcuerpoHconwith();
+  }
+  
+  
+  
