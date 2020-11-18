@@ -325,7 +325,7 @@ function fgiovannidarpadrealidtodoHoja(idpadre){
     function fgiovannisoltarElementodeMenuaHoja(draggablex,droppable,clid=cllasscssindicadorasoltarsoloestoselementosenhoja){
   
       
-    console.timeLog("entra");
+    console.log("entra");
       $( "#"+draggablex ).draggable({
         stop: function( event, ui ) {
     
