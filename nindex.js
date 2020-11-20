@@ -76,7 +76,7 @@ function fGiovannicreaobjgGeneralcs(id,tipodelinea,colo="#2eb9ce",unidadp="px"){
 "border-left":String(ov.vi*conversionunidad)+unidadpx+addborde, 
   }
   
-  console.log(objgGeneral);
+
   $("#"+id).css(objgGeneral);
   return objgGeneral;
 }
@@ -603,7 +603,7 @@ $(".classoverelementos").mouseout(function () {
    */
 
 
-   },3222);
+   },200);
   
   /* 
 rrastra1" style="position: relative; left: -1px; top: -1px;">chequeo No Excluyente</span>
@@ -613,7 +613,7 @@ rrastra1" style="position: relative; left: -1px; top: -1px;">chequeo No Excluyen
  document.getElementById(elm.id).style.left="-1px";
 
  document.getElementById(elm.id).style.top="-1px"; 
-  alert("ww");
+
   }
 
 
