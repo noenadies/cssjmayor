@@ -68,12 +68,12 @@ function fGiovannicreaobjgGeneralcs(id,tipodelinea,colo="#2eb9ce",unidadp="px"){
     "position": "absolute",
 "top": String(topx*conversionunidad)+unidadpx,
 "left": String(leftx*conversionunidad)+unidadpx,
-"width":String(widthx)+unidadpx,
-"height":String(heightx)+unidadpx,
-    "border-top":String(ov.vu)+unidadpx+addborde,
-"border-right":  String(ov.vd)+unidadpx+addborde,
-"border-bottom":String(ov.vdw)+unidadpx+addborde,
-"border-left":String(ov.vi)+unidadpx+addborde, 
+//"width":String(widthx)+unidadpx,
+//"height":String(heightx)+unidadpx,
+    "border-top":String(ov.vu*conversionunidad)+unidadpx+addborde,
+"border-right":  String(ov.vd*conversionunidad)+unidadpx+addborde,
+"border-bottom":String(ov.vdw*conversionunidad)+unidadpx+addborde,
+"border-left":String(ov.vi*conversionunidad)+unidadpx+addborde, 
   }
   
   console.log(objgGeneral);
