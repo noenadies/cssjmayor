@@ -265,16 +265,17 @@ function fGiovanniGetPos(id){
       stop: function( event, ui ) {
   
         
-/*      var objcss1={
+     var objcss1={
     "position": "absolute",
   "top":"0px",
   
-  "left": "0px"
-  
+  "left": "0px",
+  //"width": "80px",
+  //"height": "22px",
+  //"background-color": "rgb(56, 49, 121)",
+  //"z-index":String(hijosconclelemento.length)
   }
-        $("#"+ui.helper[0].id).css(objcss1); */
-
-    
+        $("#"+ui.helper[0].id).css(objcss1);
       },
       drag: function( event, ui ) {
   
@@ -297,7 +298,7 @@ function fGiovanniGetPos(id){
     });
   }
   
-var esteeleemntxxx=null;
+
 
   function deshabilitarEresizable(id, hablitar){
   /*   $( "#"+id).resizable({
@@ -328,40 +329,18 @@ var esteeleemntxxx=null;
     $( "#"+draggablex ).draggable({
       stop: function( event, ui ) {
   
-     var position = $(this).position();
-     var top = position.top;
-     var left = position.left;
-        console.log(left);
-        console.log(ui.helper[0].offsetLeft);
-
-/*         
-
-        var objcss1={
-          "position": "absolute",
-          "top":"50%",
-          
-          "left": "50%",
-     "transform": "translate(0%, 0%)",
-     "width": "100%",
-"height": "100%"
         
-          }
-                $("#"+ui.helper[0].id).css(objcss1);  */
-
-                entraremoveryaddelementoalmenucrear (ui.helper[0]);
-            
-/* 
-                esteeleemntxxx=ui.helper[0];
-  var padredelnodo=ui.helper[0].parentElement;
-        console.log(ui.helper);
-        console.log(ui.helper[0].offsetLeft);
-    var desfas=ui.helper[0].offsetLef;
-
-setTimeout(function(){
-
-          console.log("un segundo");
-},1000);  
-        console.log("2222aaaaaaaaaaaaaaaaaaaaaaa"); */
+     var objcss1={
+    "position": "absolute",
+  "top":"0px",
+  
+  "left": "0px",
+  //"width": "80px",
+  //"height": "22px",
+  //"background-color": "rgb(56, 49, 121)",
+  //"z-index":String(hijosconclelemento.length)
+  }
+        $("#"+ui.helper[0].id).css(objcss1);
       },
       drag: function( event, ui ) {
   
@@ -577,41 +556,6 @@ $(".classoverelementos").mouseout(function () {
 
 
 
-  function  entraremoveryaddelementoalmenucrear (elm) {
-
-  
-
-
-/*     var selector="#"+elm.id;
-    var esteestrin=String($(selector)[0].outerHTML);
-  
-  
-   $(selector).remove();
-
-   $("#divpadrelocal1").removeClass("pdivpadrelocal1"); */
-   setTimeout(function (param) {  
-  
-   /*  $("#divpadrelocal1").append(esteestrin);
-    $("#divpadrelocal1").addClass("pdivpadrelocal1");
-    fgiovannisoltarElementodeMenuaHoja (elm.id,"idhoja1");
-  
-    
-  addobjetoidentificadoresparaelementosmenuarrastrarenhoja (elm.id,   objmenucrearelementos.chequeonoexcluyente);
-   */
-
-
-   },3222);
-  
-  /* 
-rrastra1" style="position: relative; left: -1px; top: -1px;">chequeo No Excluyente</span>
-  */
- document.getElementById(elm.id).style.position="relative";
-
- document.getElementById(elm.id).style.left="-1px";
-
- document.getElementById(elm.id).style.top="-1px"; 
-  alert("ww");
-  }
 
 
 
@@ -817,7 +761,7 @@ $("#idtodo").css({
     });
   
       }
-var cllasscssindicadorasoltarsoloestoselementosenhoja="clbocxpp";
+var cllasscssindicadorasoltarsoloestoselementosenhoja="clbocx";
 function fGiovanniCreaUdTodo(idpadre){
     var stidtodo='  <div id="idtodo">'+
     
