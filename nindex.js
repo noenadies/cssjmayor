@@ -1,1 +1,607 @@
-var _0x5ebb=['replace','split','o\x20a=[\x22\x5cb\x5cd\x5cl\x5cj\x5cd\x5cj\x22,\x22\x5cx\x5cc\x5cl\x5cP\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5c2m\x5cU\x5c3P\x5cd\x22,\x22\x5cr\x5cp\x5cc\x5cr\x5cc\x5cn\x5cd\x22,\x22\x5c1y\x22,\x22\x5cR\x5cb\x5cd\x5cl\x5cs\x22,\x22\x5cs\x5cj\x5ct\x5cc\x5cp\x22,\x22\x5c1y\x5cb\x5cd\x5cz\x5cc\x5cn\x5cD\x5ch\x5cf\x5cl\x5cc\x5cp\x5cf\x5ch\x5cE\x22,\x22\x5c1y\x5c1e\x5cc\x5cA\x5c3S\x5ce\x5cc\x22,\x22\x5cr\x5cF\x22,\x22\x5cr\x5cj\x5ci\x5cb\x5cl\x5cb\x5cj\x5cn\x22,\x22\x5cl\x5cj\x5cr\x22,\x22\x5ch\x5cc\x5cJ\x5cl\x22,\x22\x5cs\x5cc\x5cb\x5cx\x5cs\x5cl\x22,\x22\x5cm\x5ci\x5cj\x5ch\x5cb\x5cd\x5cm\x22,\x22\x5cf\x5cA\x5ci\x5cj\x5ch\x5cD\x5cl\x5cc\x22,\x22\x5ct\x5cD\x22,\x22\x5ct\x5cd\x22,\x22\x5ct\x5cd\x5cR\x22,\x22\x5ct\x5cb\x22,\x22\x5ce\x5ci\x5ci\x22,\x22\x5cb\x5cd\x5cb\x5ce\x5cE\x22,\x22\x5cb\x5cd\x5cb\x5ce\x5c1e\x22,\x22\x5cb\x5cd\x5cb\x5ce\x5c1O\x22,\x22\x5cb\x5cd\x5cb\x5ce\x5c2d\x22,\x22\x5cb\x5cd\x22,\x22\x5ce\x5cs\x5cf\x5cn\x5cx\x5cc\x22,\x22\x5c1U\x5ce\x5ch\x5cf\x5ci\x5ci\x5ce\x5cs\x5cf\x5cn\x5cx\x5cc\x5ce\x5cs\x5cc\x5ce\x5cL\x22,\x22\x5ce\x5cs\x5cc\x5ce\x5cL\x5cc\x5cd\x22,\x22\x5ch\x5cc\x5cn\x5cx\x5cl\x5cs\x22,\x22\x5cr\x5cD\x5ci\x5cs\x22,\x22\x5ce\x5ch\x5cf\x5ci\x5ci\x5cx\x5cb\x5cj\x5ct\x5cf\x5cn\x5cn\x5cb\x5ci\x5cc\x5ch\x5cc\x5ce\x5cb\x5cj\x5cn\x22,\x22\x5cp\x5cc\x5cz\x5cj\x5ct\x5cc\x5cN\x5ch\x5cf\x5ci\x5ci\x22,\x22\x5c3T\x22,\x22\x5cl\x5cf\x5cp\x5cx\x5cc\x5cl\x22,\x22\x5cf\x5cd\x5cd\x5cN\x5ch\x5cf\x5ci\x5ci\x22,\x22\x5ce\x5ch\x5cb\x5ce\x5cL\x22,\x22\x5cx\x5cc\x5cl\x5cP\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5ci\x5c2m\x5cU\x5cN\x5ch\x5cf\x5ci\x5ci\x5c2c\x5cf\x5cz\x5cc\x22,\x22\x5cb\x5cn\x5cn\x5cc\x5cp\x5c3V\x5cb\x5cd\x5cl\x5cs\x22,\x22\x5cr\x5cf\x5cx\x5cc\x5c3W\x22,\x22\x5cj\x5cJ\x5cJ\x5ci\x5cc\x5cl\x5c1w\x5cc\x5cJ\x5cl\x22,\x22\x5cr\x5cf\x5cx\x5cc\x5c3X\x22,\x22\x5cj\x5cJ\x5cJ\x5ci\x5cc\x5cl\x5c2j\x5cj\x5cr\x22,\x22\x5cz\x5cj\x5cD\x5ci\x5cc\x5cz\x5cj\x5ct\x5cc\x22,\x22\x5cQ\x5cr\x5cF\x22,\x22\x5cs\x5cc\x5ch\x5cr\x5cc\x5cp\x22,\x22\x5cd\x5cp\x5cf\x5cx\x5cx\x5cf\x5cA\x5ch\x5cc\x22,\x22\x5c1U\x5ce\x5ch\x5cA\x5cj\x5ce\x5cF\x22,\x22\x5cd\x5cp\x5cj\x5cr\x5cr\x5cf\x5cA\x5ch\x5cc\x22,\x22\x5c1y\x5cb\x5cd\x5cs\x5cj\x5cZ\x5cf\x5cE\x22,\x22\x5cb\x5cd\x5ce\x5cD\x5cc\x5cp\x5cr\x5cj\x5c1l\x22,\x22\x5ce\x5ch\x5cc\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5cj\x22,\x22\x5cc\x5ch\x22,\x22\x5cm\x22,\x22\x22,\x22\x5cp\x5cc\x5cr\x5ch\x5cf\x5ce\x5cc\x22,\x22\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x22,\x22\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cc\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5cj\x5ck\x5cw\x22,\x22\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cf\x5cr\x5cr\x5cc\x5cn\x5cd\x22,\x22\x5c3Y\x5cQ\x5cr\x5cF\x22,\x22\x5c1e\x5c1e\x5cr\x5cF\x22,\x22\x5cb\x5cd\x5cp\x5cc\x5cn\x5cx\x5ch\x5cj\x5cn\x22,\x22\x5cv\x5cd\x5cb\x5ct\x5cb\x5cd\x5cu\x5ck\x22,\x22\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cx\x5cp\x5cb\x5ch\x5ch\x5cf\x5cd\x5cb\x5ct\x5cp\x5cc\x5cn\x5cx\x5ch\x5cj\x5cn\x5ck\x5cw\x22,\x22\x5cQ\x5c1T\x22,\x22\x5cE\x5cQ\x5cQ\x5c1T\x22,\x22\x5cE\x5c1O\x5cr\x5cF\x22,\x22\x5ch\x5cf\x5ci\x5cl\x5cN\x5cs\x5cb\x5ch\x5cd\x22,\x22\x5c1U\x22,\x22\x5cb\x5cn\x5cn\x5cc\x5cp\x5c1l\x5c2j\x5c3Z\x5c1w\x22,\x22\x5cb\x5cd\x5cr\x22,\x22\x5cp\x5cf\x5cl\x5cj\x5cn\x5cd\x5cb\x5ct\x5cF\x5cm\x22,\x22\x5cf\x5ch\x5ch\x22,\x22\x5cp\x5cc\x5ci\x5cb\x5c2h\x5cf\x5cA\x5ch\x5cc\x22,\x22\x5cQ\x22,\x22\x5c1T\x22,\x22\x5cE\x5cQ\x5cQ\x22,\x22\x5cm\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cl\x5cj\x5cd\x5cj\x5ck\x5cw\x22,\x22\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5ce\x5cD\x5cc\x5cp\x5cr\x5cj\x5c1l\x5ck\x5cw\x22,\x22\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cs\x5cj\x5cZ\x5cf\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cs\x5cj\x5cZ\x5cf\x5ck\x5cw\x22,\x22\x5cm\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cx\x5cp\x5cb\x5ch\x5ch\x5cf\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cx\x5cp\x5cb\x5ch\x5ch\x5cf\x5ck\x5cw\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cz\x5cf\x5cp\x5cx\x5cc\x5cn\x5cc\x5ci\x5cd\x5cb\x5ct\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cz\x5cf\x5cp\x5cx\x5cc\x5cn\x5cc\x5ci\x5cd\x5cb\x5ct\x5ck\x5cw\x22,\x22\x5cm\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cc\x5ch\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cc\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5cj\x5ck\x5cw\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cm\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cz\x5cc\x5cn\x5cD\x5cA\x5cf\x5ci\x5cb\x5ce\x5cj\x5ck\x5cw\x22,\x22\x5cv\x5cr\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cr\x5ck\x5cw\x5cv\x5cH\x5cr\x5cw\x22,\x22\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cz\x5cl\x5cF\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cA\x5cj\x5cF\x5cz\x5cb\x5cn\x5ck\x5cw\x22,\x22\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cz\x5ce\x5cE\x5ck\x5cw\x22,\x22\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cz\x5cb\x5cp\x5cj\x5cR\x5ck\x5cw\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5ce\x5cp\x5cc\x5cf\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cA\x5cj\x5ce\x5cF\x5ck\x5cw\x5cc\x5ci\x5cl\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x5cv\x5cd\x5cb\x5ct\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cA\x5cj\x5ce\x5cF\x5ck\x5cw\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x5cv\x5cd\x5cb\x5ct\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cA\x5cj\x5ce\x5cF\x5ck\x5cw\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cm\x5cm\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cz\x5ce\x5c1e\x5ck\x5cw\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cm\x5cm\x5cm\x5cm\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x22,\x22\x5cm\x5cm\x5cv\x5cd\x5cb\x5ct\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cz\x5cc\x5cn\x5cD\x5cA\x5cj\x5cp\x5cd\x5cc\x5ci\x5ck\x5cw\x22,\x22\x5cm\x5cm\x5cm\x5cv\x5cb\x5cn\x5cr\x5cD\x5cl\x5cm\x5cl\x5cU\x5cr\x5cc\x5cu\x5ck\x5ce\x5cs\x5cc\x5ce\x5cL\x5cA\x5cj\x5cF\x5ck\x5cm\x5cn\x5cf\x5cz\x5cc\x5cu\x5ck\x5ck\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cb\x5ce\x5cE\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cf\x5ci\x5ci\x5ce\x5cs\x5cf\x5cn\x5cx\x5cc\x5ce\x5cs\x5cc\x5ce\x5cL\x5ck\x5cw\x22,\x22\x5cm\x5cv\x5cb\x5cn\x5cr\x5cD\x5cl\x5cm\x5cl\x5cU\x5cr\x5cc\x5cu\x5ck\x5ce\x5cs\x5cc\x5ce\x5cL\x5cA\x5cj\x5cF\x5ck\x5cm\x5cn\x5cf\x5cz\x5cc\x5cu\x5ck\x5ck\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cb\x5ce\x5c1e\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cf\x5ci\x5ci\x5ce\x5cs\x5cf\x5cn\x5cx\x5cc\x5ce\x5cs\x5cc\x5ce\x5cL\x5ck\x5cw\x22,\x22\x5cm\x5cm\x5cv\x5cb\x5cn\x5cr\x5cD\x5cl\x5cm\x5cl\x5cU\x5cr\x5cc\x5cu\x5ck\x5ce\x5cs\x5cc\x5ce\x5cL\x5cA\x5cj\x5cF\x5ck\x5cm\x5cn\x5cf\x5cz\x5cc\x5cu\x5ck\x5ck\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cb\x5ce\x5c1O\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cf\x5ci\x5ci\x5ce\x5cs\x5cf\x5cn\x5cx\x5cc\x5ce\x5cs\x5cc\x5ce\x5cL\x5ck\x5cw\x22,\x22\x5cv\x5cb\x5cn\x5cr\x5cD\x5cl\x5cm\x5cl\x5cU\x5cr\x5cc\x5cu\x5ck\x5ce\x5cs\x5cc\x5ce\x5cL\x5cA\x5cj\x5cF\x5ck\x5cm\x5cn\x5cf\x5cz\x5cc\x5cu\x5ck\x5ck\x5cm\x5cb\x5cd\x5cu\x5ck\x5cb\x5cd\x5cb\x5ce\x5c2d\x5ck\x5cm\x5ce\x5ch\x5cf\x5ci\x5ci\x5cu\x5ck\x5ce\x5ch\x5cf\x5ci\x5ci\x5ce\x5cs\x5cf\x5cn\x5cx\x5cc\x5ce\x5cs\x5cc\x5ce\x5cL\x5ck\x5cw\x22,\x22\x5cv\x5cH\x5cd\x5cb\x5ct\x5cw\x5c4e\x22,\x22\x5cA\x5cj\x5cd\x5cU\x22,\x22\x5cs\x5cj\x5cZ\x5cf\x5c1v\x5ce\x5cl\x5cD\x5cf\x5ch\x5cP\x22,\x22\x5cN\x5cj\x5cj\x5cp\x5cd\x5cc\x5cn\x5cf\x5cd\x5cf\x5ci\x5cp\x5cf\x5cl\x5cj\x5cn\x5cc\x5cn\x5cc\x5ch\x5cd\x5cb\x5ct\x22,\x22\x5cf\x5cZ\x5cD\x5ci\x5cl\x5cf\x5cp\x5cb\x5cd\x5ce\x5cD\x5cc\x5cp\x5cr\x5cj\x5c1l\x5ce\x5cj\x5cn\x5cR\x5cb\x5cl\x5cs\x22,\x22\x5ce\x5cp\x5cc\x5cf\x5cp\x5cp\x5cc\x5cn\x5cx\x5ch\x5cj\x5cn\x5cc\x5ci\x22,\x22\x5ce\x5cf\x5cz\x5cA\x5cb\x5cf\x5cp\x5c4g\x5cf\x5cd\x5cp\x5cc\x5c1v\x5c1w\x5cN\x5cD\x5cc\x5cp\x5cj\x5cr\x5cj\x5cd\x5cc\x5c1l\x5cj\x5cZ\x5cf\x5ci\x22,\x22\x5cx\x5cc\x5cl\x5cP\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5cj\x5c4i\x5cb\x5cj\x22,\x22\x5cx\x5cc\x5cl\x5cP\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5cj\x5ci\x5cN\x5ch\x5cf\x5ci\x5ci\x22,\x22\x5cx\x5cc\x5cl\x5cP\x5ch\x5cc\x5cz\x5cc\x5cn\x5cl\x5cj\x5c2c\x22,\x22\x5cf\x5cp\x5cp\x5cf\x5ci\x5cl\x5cp\x5cf\x5cp\x5cN\x22,\x22\x5cf\x5cp\x5cp\x5cf\x5ci\x5cl\x5cp\x5cf\x5cp\x5cP\x22,\x22\x5ce\x5cf\x5cz\x5cA\x5cb\x5cf\x5cp\x5c1v\x5cn\x5ce\x5cs\x5cj\x5cU\x5c1v\x5ch\x5cl\x5cj\x5cP\x5ce\x5cj\x5cn\x5c4j\x5cf\x5cl\x5cj\x5cn\x22,\x22\x5cz\x5cc\x5cn\x5cD\x5cA\x5cf\x5ci\x5cb\x5ce\x5cj\x22,\x22\x5cx\x5cc\x5cl\x5cP\x5cN\x5c1w\x22,\x22\x5cb\x5cn\x5cb\x5ce\x5cb\x5cf\x22,\x22\x5cb\x5cd\x5cx\x5cp\x5cb\x5ch\x5ch\x5cf\x5cE\x22,\x22\x5cb\x5cd\x5ce\x5cp\x5cc\x5cf\x5cE\x22,\x22\x5cb\x5cd\x5cs\x5cj\x5cZ\x5cf\x5cE\x22];q\x202M(1t){o\x202e=S[a[1]](a[0]);$(a[3]+1t)[a[2]](2e)}q\x204p(){$(a[6])[a[5]](q(){$(C)[a[4]](4q)},q(){$(C)[a[4]](20)})}o\x204r=1M;o\x201W={2b:2,1P:2,1Q:2,1R:2};q\x202H(2n,2p,2G,2F){o\x202o={2b:2*2n,1P:2*2p,1Q:2*2G,1R:2*2F};G\x202o}q\x202t(y,2C=a[7],2B=a[8]){o\x20B=a[3]+y;o\x202y=2C;o\x20O=2B;o\x20M=1;o\x203D=2*M;o\x20X=$(B)[a[9]]();o\x201h=X[a[10]];o\x202x=X[a[11]];o\x202w=$(B)[a[4]]();o\x202u=$(B)[a[12]]();o\x201s=a[13]+2y;o\x201b={2b:2,1P:2,1Q:2,1R:2};1b=1W;o\x201V={\x22\x5cr\x5cj\x5ci\x5cb\x5cl\x5cb\x5cj\x5cn\x22:a[14],\x22\x5cl\x5cj\x5cr\x22:I(1h*M)+O,\x22\x5ch\x5cc\x5cJ\x5cl\x22:I(2x*M)+O,\x22\x5cR\x5cb\x5cd\x5cl\x5cs\x22:I(2w*M)+O,\x22\x5cs\x5cc\x5cb\x5cx\x5cs\x5cl\x22:I(2u*M)+O,\x22\x5cA\x5cj\x5cp\x5cd\x5cc\x5cp\x5c1r\x5cl\x5cj\x5cr\x22:I(1b[a[15]]*M)+O+1s,\x22\x5cA\x5cj\x5cp\x5cd\x5cc\x5cp\x5c1r\x5cp\x5cb\x5cx\x5cs\x5cl\x22:I(1b[a[16]]*M)+O+1s,\x22\x5cA\x5cj\x5cp\x5cd\x5cc\x5cp\x5c1r\x5cA\x5cj\x5cl\x5cl\x5cj\x5cz\x22:I(1b[a[17]]*M)+O+1s,\x22\x5cA\x5cj\x5cp\x5cd\x5cc\x5cp\x5c1r\x5ch\x5cc\x5cJ\x5cl\x22:I(1b[a[18]]*M)+O+1s};$(a[3]+y)[a[19]](1V);G\x201V}o\x201q=0;o\x201p=0;o\x201j=0;o\x201k=0;q\x203q(){$(a[26])[a[25]](q(1N){1q=0;1p=0;1j=0;1k=0;K(1m(a[20])){1q=1}1g{1q=0};K(1m(a[21])){1p=1}1g{1p=0};K(1m(a[22])){1j=1}1g{1j=0};K(1m(a[23])){1k=1}1g{1k=0};1W=2H(1q,1p,1j,1k);2t(1C[a[24]])})}q\x201m(y){G\x20S[a[1]](y)[a[27]]}o\x201C=1M;o\x202a=2s;o\x201f=[];q\x202v(V){o\x201Z=W;K(1f[a[28]]>0){2g(o\x20T\x204m\x201f){K(1f[T][a[24]]==V){1Z=2s;5a}}}1g{1f[a[29]]({2r:V});1X(V)};K(1Z){}1g{1f[a[29]]({2r:V});1X(V)};K(2a){2a=W}}o\x201F=a[30];q\x201X(B){o\x20B=a[3]+B;$(B)[a[35]](q(1N){$(a[32])[a[31]](1F);1C=1N[a[33]];$(1C)[a[34]](1F)})}q\x203r(V){2v(V)}q\x202O(1z){G\x20S[a[36]](1z)}q\x203d(){$($(a[3]+1J))[a[19]](a[11],(4A[a[37]]-4B)/2)}q\x203p(y){o\x20X=$(a[3]+y)[a[9]]();o\x204v=X[a[10]];o\x204C=X[a[11]];G\x20X}o\x201K=0;o\x201L=0;q\x203c(y){$(a[3]+y)[a[42]](q(1c){1K=1c[a[38]]-C[a[39]];1L=1c[a[40]]-C[a[41]]})}o\x201a=0;q\x202R(2q,4I){$(a[3]+2q)[a[45]]({4J:q(1c,1A){o\x201B={\x22\x5cr\x5cj\x5ci\x5cb\x5cl\x5cb\x5cj\x5cn\x22:a[14],\x22\x5cl\x5cj\x5cr\x22:a[43],\x22\x5ch\x5cc\x5cJ\x5cl\x22:a[43]};$(a[3]+1A[a[44]][0][a[24]])[a[19]](1B)},3v:q(1c,1A){}});$(a[48])[a[47]]({4K:a[46],4y:q(1c,1A){K(1a==0){2A(C)};1a=1a=+1;K(1a!=0){1a=0}}})}o\x201J=a[49];q\x202A(2D){o\x201x=S[a[36]](a[50]);K(1x[a[28]]>0){o\x20Y=a[51]+I(1x[a[28]]);Y[a[54]](a[52],a[53]);o\x202E=a[55]+Y+a[56]+Y+a[57];$(2D)[a[58]](2E);o\x201G=$(a[3]+a[0])[a[9]]();o\x202z=1G[a[10]];o\x204H=1G[a[11]];o\x201B={\x22\x5cr\x5cj\x5ci\x5cb\x5cl\x5cb\x5cj\x5cn\x22:a[14],\x22\x5cl\x5cj\x5cr\x22:I(1L-2z)+a[8],\x22\x5ch\x5cc\x5cJ\x5cl\x22:I(1K)+a[8],\x22\x5cR\x5cb\x5cd\x5cl\x5cs\x22:a[59],\x22\x5cs\x5cc\x5cb\x5cx\x5cs\x5cl\x22:a[2f],\x22\x5c2h\x5c1r\x5cb\x5cn\x5cd\x5cc\x5cF\x22:I(1x[a[28]])};$(a[3]+Y)[a[19]](1B);1Y(Y,1J);2K(Y)}}o\x204x=13;o\x201h=0;q\x203e(B){o\x204L=2i;o\x201n=a[53];B=a[3]+B;o\x202l=S[a[1]](B[a[54]](a[3],a[53]));2g(o\x20T=0;T<=2f;T=T+1){1n=a[2i]+I(T);1n=1n[a[54]](a[52],a[53]);o\x202k=a[4D]+1n+a[4N]+T+a[57];o\x204Y=0;$(B)[a[58]](2k);$(2l[a[4U]])[a[19]]({\x22\x5cr\x5cj\x5ci\x5cb\x5cl\x5cb\x5cj\x5cn\x22:a[14],\x22\x5cl\x5cj\x5cr\x22:I(1h)+a[8],\x22\x5ch\x5cc\x5cJ\x5cl\x22:a[4R],\x22\x5cR\x5cb\x5cd\x5cl\x5cs\x22:a[4O],\x22\x5cs\x5cc\x5cb\x5cx\x5cs\x5cl\x22:a[4s]});1h=1h+13}}o\x201S=1M;o\x201H={g:1};q\x203h(y){G\x20$(a[3]+y)}q\x202Z(y){G\x20S[a[1]](y)}q\x203b(y){G\x20$(a[1D]+y)}q\x204W(y){G\x20S[a[1]](y)}q\x204X(y){G\x20$(a[1D]+y)}q\x204Z(y){G\x20$(a[3]+y)}q\x202J(B,1i,3o=1H){$(a[1D]+B)[a[45]]({3s:W,1E:W,3t:a[3]+1i})}q\x201Y(B,1i,3o=1H){$(a[3]+B)[a[45]]({3s:W,1E:W,3t:a[3]+1i,3v:q\x203a(4M,2V){o\x201I=3p(2V[a[44]][0][a[24]]);S[a[1]](a[4E])[a[4F]]=a[4G]+1I[a[11]]+a[52]+1I[a[10]]}})}q\x202S(B){$(a[1D]+B)[a[2W]]({2X:a[2Y],1E:W,3f:[0,0]})}q\x202K(B){$(a[3]+B)[a[2W]]({2X:a[2Y],1E:W,3f:[0,0]})}q\x204z(B){o\x204w={\x22\x5cr\x5cj\x5ci\x5cb\x5cl\x5cb\x5cj\x5cn\x22:a[14],\x22\x5ch\x5cc\x5cJ\x5cl\x22:a[2N]+a[1u],\x22\x5cl\x5cj\x5cr\x22:a[2N]+a[1u],\x22\x5cR\x5cb\x5cd\x5cl\x5cs\x22:a[3i]+a[1u],\x22\x5cs\x5cc\x5cb\x5cx\x5cs\x5cl\x22:a[3i]+a[1u]};$(B)[a[19]]({4P})}q\x202L(1t){o\x202T=a[4V]+a[4Q]+a[4S]+a[4T]+a[4u]+a[3k]+a[4t]+a[3z]+a[3k]+a[3B]+a[3C]+a[3E]+a[3y]+a[3H]+a[3j]+a[3M]+a[3A]+a[3j]+a[3I]+a[3O]+a[3G]+a[3N]+a[3J]+a[3F];a[57];$(a[3x])[a[2]](2T)}o\x201o;q\x203L(){C[a[3u]]=1S;1o=C;C[a[3K]]=q\x203a(y){3c(y)};C[a[2I]]=q(){3d()};C[a[3g]]=q(y){3e(y)};C[a[3m]]=q(1t){2M(1t)};C[a[3Q]]=q(y){G\x203h(y)};C[a[4f]]=q(y){G\x203b(y)};C[a[4o]]=q(y){G\x202Z(y)};C[a[4n]]=q(1d,1i,2U){2J(1d,1i,2U)};C[a[4l]]=q(1d){1Y(1d)};C[a[4k]]=q(1d){2S(1d)};C[a[3w]]=q(2Q,2P){2R(2Q,2P)};C[a[4h]]=q(1z){G\x202O(1z)};C[a[3R]]=q(3l){2L();C[a[3g]](a[4d]);C[a[3u]]=1S;4c(q(){1o[a[3w]](a[4b],a[3n]);1o.4a(a[49]);3q();3r(a[3n]);1o[a[3m]](3l)},3U)};C[a[2I]]()}','toString','\x5cw+','fromCharCode'];(function(_0x14a0d0,_0x5ebb70){var _0x2ec731=function(_0x46b2cf){while(--_0x46b2cf){_0x14a0d0['push'](_0x14a0d0['shift']());}};_0x2ec731(++_0x5ebb70);}(_0x5ebb,0x1d7));var _0x2ec7=function(_0x14a0d0,_0x5ebb70){_0x14a0d0=_0x14a0d0-0x0;var _0x2ec731=_0x5ebb[_0x14a0d0];return _0x2ec731;};var _0x30fcdb=_0x2ec7;eval(function(_0x46b2cf,_0x1dcd3f,_0x104b41,_0x4ac10a,_0x2b249c,_0x4feefb){var _0x3e7fb6=_0x2ec7;_0x2b249c=function(_0x5b9691){var _0xff1b43=_0x2ec7;return(_0x5b9691<_0x1dcd3f?'':_0x2b249c(parseInt(_0x5b9691/_0x1dcd3f)))+((_0x5b9691=_0x5b9691%_0x1dcd3f)>0x23?String[_0xff1b43('0x2')](_0x5b9691+0x1d):_0x5b9691[_0xff1b43('0x0')](0x24));};if(!''[_0x3e7fb6('0x3')](/^/,String)){while(_0x104b41--){_0x4feefb[_0x2b249c(_0x104b41)]=_0x4ac10a[_0x104b41]||_0x2b249c(_0x104b41);}_0x4ac10a=[function(_0xe651e8){return _0x4feefb[_0xe651e8];}],_0x2b249c=function(){var _0x19d9ce=_0x3e7fb6;return _0x19d9ce('0x1');},_0x104b41=0x1;};while(_0x104b41--){_0x4ac10a[_0x104b41]&&(_0x46b2cf=_0x46b2cf[_0x3e7fb6('0x3')](new RegExp('\x5cb'+_0x2b249c(_0x104b41)+'\x5cb','g'),_0x4ac10a[_0x104b41]));}return _0x46b2cf;}(_0x30fcdb('0x5'),0x3e,0x141,'||||||||||_0xb9da|x69|x65|x64|x63|x61||x6C|x73|x6F|x22|x74|x20|x6E|var|x72|function|x70|x68|x76|x3D|x3C|x3E|x67|_0x2b23xe|x6D|x62|_0x2b23x11|this|x75|x31|x78|return|x2F|String|x66|if|x6B|_0x2b23x14|x43|_0x2b23x13|x45|x30|x77|document|_0x2b23x2b|x79|_0x2b23x29|false|_0x2b23x16|_0x2b23x43|x6A|||||||||||identracrear|_0x2b23x1c|_0x2b23x38|_0x2b23x67|x32|clickaenhojas|else|topx|_0x2b23x58|varv3|varv4|x48|sich|_0x2b23x4b|_this|varv2|varv1|x2D|_0x2b23x1b|_0x2b23x2|75|x41|x4C|_0x2b23x42|x23|_0x2b23x30|_0x2b23x3d|_0x2b23x3e|actualelementoactivo|68|disabled|varclassgiovanniselecion|_0x2b23x45|objetopropiedadesFGioarrastrar|_0x2b23x5e|containeridcuerpoH|ratondivx|ratondivy|null|_0x2b23x23|x33|vd|vu|vdw|ObjGiohojaactual|x25|x2E|_0x2b23x1d|valoresparacssborder|activavlivkenhoja|FGioarrastrarE|_0x2b23x2a|||||||||||solounavesgetelementoconClick|vi|x4E|x34|_0x2b23x3|60|for|x7A|61|x54|_0x2b23x4d|_0x2b23x4c|x42|_0x2b23x8|_0x2b23xc|_0x2b23x9|_0x2b23x3b|id|true|fGiovannicreaobjgGeneralcs|_0x2b23x1a|getelementoconClick|_0x2b23x19|_0x2b23x18|_0x2b23x12|_0x2b23x46|fgiovannicrearelementos|_0x2b23x10|_0x2b23xf|_0x2b23x41|_0x2b23x44|_0x2b23xb|_0x2b23xa|creavaloresparacssborder|102|FGioarrastrarC|fGiovanniresizableE|fGiovanniCreaUdTodo|fgiovannidarpadrealidtodoHoja|74|fGiovanniGetElementosporClass|_0x2b23x6a|_0x2b23x69|menubassico|fGiovanniresizableC|_0x2b23x64|_0x2b23x68|_0x2b23x5d|73|handles|72|fGiovanniElementoN|||||||||||_0x2b23x5b|fGiovanniElementosClass|fGiovanniCoordenadasratoneneldiv|fGiovanniajustaridcuerpoHconinnerWidth|Fgiovannicrearrenglones|grid|103|fGiovanniElemento|76|90|82|_0x2b23x6b|104|116|_0x2b23x59|fGiovanniGetPos|fGiovanniCheckmenuboder|encrearhoja|snap|containment|100|drag|111|99|88|84|92|85|86|_0x2b23x15|87|98|95|89|93|97|101|DiagramadorCOREgio|91|96|94|x49|105|113|x39|x2A|1000|x57|x58|x59|x38|x4D|||||||||||Coordenadasratoneneldiv|115|setTimeout|114|x2B|106|x50|112|x47|x52|110|109|in|108|107|fgiovannimenulateralinicia|130|objgGeneralcs|66|83|81|_0x2b23x33|_0x2b23x62|intconshalturenglon|drop|fGiovanniidgrillahoja1|window|570|_0x2b23x34|62|70|69|71|_0x2b23x47|_0x2b23x3c|stop|accept|_0x2b23x4a|_0x2b23x5c|63|65|css1|78|64|79|80|67|77|fgetEN|fgetEClass|_0x2b23x4e|fgetEG|||||||||||break'[_0x30fcdb('0x4')]('|'),0x0,{}));
+
+
+function fgiovannidarpadrealidtodoHoja(idpadre){
+    var eltodo=document.getElementById("idtodo");
+  $("#"+idpadre).prepend(eltodo);
+  }
+  
+  
+  
+  
+  
+  function fgiovannimenulateralinicia(){
+  
+      $("#idmenulateral1").hover(function(){
+    $(this).width(130);
+        }, function(){
+          $(this).width(20);
+      });
+    }
+  
+  var objgGeneralcs=null;
+  var valoresparacssborder={
+    vi:2,
+    vd:2,
+    vu:2,
+    vdw:2,
+  
+  
+   }
+  
+   function creavaloresparacssborder (p1,p2,p3,p4) {  
+    var valoresparacssbord={
+    vi:2*p1,
+    vd:2*p2,
+    vu:2*p3,
+    vdw:2*p4,
+  
+  
+   }
+  
+     return valoresparacssbord;
+   }
+  function fGiovannicreaobjgGeneralcs(id,colo="#2eb9ce",unidadp="px"){
+    var selector="#"+id;
+    var color=colo;
+    var unidadpx=unidadp;
+    var conversionunidad=1;
+    var valorunidad=2*conversionunidad;
+   var position = $(selector).position();
+   var topx = position.top;
+   var leftx = position.left;
+   var widthx=$(selector).width();
+   var heightx=$(selector).height();
+   var addborde=" solid "+ color;
+   var ov={
+    vi:2,
+    vd:2,
+    vu:2,
+    vdw:2,
+  
+  
+   }
+   ov=valoresparacssborder;
+    var objgGeneral={
+      "position": "absolute",
+  "top": String(topx*conversionunidad)+unidadpx,
+  "left": String(leftx*conversionunidad)+unidadpx,
+  //"width":String(widthx*conversionunidad)+unidadpx,
+  //"height":String(heightx*conversionunidad)+unidadpx,
+      "border-top":String(ov.vu*conversionunidad)+unidadpx+addborde,
+  "border-right":  String(ov.vd*conversionunidad)+unidadpx+addborde,
+  "border-bottom":String(ov.vdw*conversionunidad)+unidadpx+addborde,
+  "border-left":String(ov.vi*conversionunidad)+unidadpx+addborde, 
+    }
+    
+    
+    $("#"+id).css(objgGeneral);
+    console.log("nuevocampo");
+    return objgGeneral;
+  }
+  var varv1=0;
+  var varv2=0;
+  var varv3=0;
+  var varv4=0;
+  function fGiovanniCheckmenuboder(){
+  
+    $(".classchangecheck").change(function (e) { 
+   
+      
+     varv1=0;
+  varv2=0;
+  varv3=0;
+   varv4=0;
+  
+  
+   
+  if(sich("idic1")){
+    varv1=1;
+    
+  }
+  else{
+    varv1=0;
+  }
+  if(sich("idic2")){
+    varv2=1;
+  
+    
+  }
+  else{
+    varv2=0;
+  }
+  if(sich("idic3")){
+    varv3=1;
+  }
+  else{
+    varv3=0;
+  }
+  if(sich("idic4")){
+    varv4=1;
+  }
+  else{
+    varv4=0;
+  }
+  
+  
+  valoresparacssborder=creavaloresparacssborder(varv1,varv2,varv3,varv4);
+  
+  
+      fGiovannicreaobjgGeneralcs(actualelementoactivo.id);
+      
+    });
+  }
+  
+  function sich(id) {
+    return document.getElementById(id).checked;
+    }
+  
+  var actualelementoactivo=null;
+  var solounavesgetelementoconClick=true;
+  var clickaenhojas=[];
+  
+  function getelementoconClick(idhoja){
+    var tengounahojaigual=false;
+    if(clickaenhojas.length>0){
+  for(var i in clickaenhojas){
+  if(clickaenhojas[i].id==idhoja){
+    tengounahojaigual=true;
+    break;
+  }
+  }
+    }
+    else{
+      clickaenhojas.push({id:idhoja});
+      activavlivkenhoja(idhoja);
+    }
+  
+    if(tengounahojaigual){
+  
+    }
+    else{
+      clickaenhojas.push({id:idhoja});
+      activavlivkenhoja(idhoja);
+    }
+    if(solounavesgetelementoconClick){
+      solounavesgetelementoconClick=false;
+     
+    }
+  }
+  
+  var varclassgiovanniselecion="classgiovanniselecion";
+  function activavlivkenhoja(selector){
+    var selector="#"+selector
+    $(selector).click(function (e) { 
+      $("*").removeClass(varclassgiovanniselecion);
+  
+      
+        actualelementoactivo=e.target;
+     
+        
+  
+        $(actualelementoactivo).addClass(varclassgiovanniselecion);
+  });
+  }
+  
+  
+  function encrearhoja(idhoja) { getelementoconClick(idhoja); }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function fGiovanniGetElementosporClass(cl) {
+      return document.getElementsByClassName(cl);
+  }
+  function fGiovanniajustaridcuerpoHconinnerWidth () {
+       
+      
+      $($("#"+containeridcuerpoH)).css("left", (window.innerWidth-570)/2);
+  
+  
+  
+    }
+  
+  function fGiovanniGetPos(id){
+      var position = $("#"+id).position();
+      var top = position.top;
+      var left = position.left;
+      return position;
+    }
+    var ratondivx=0;
+    var ratondivy=0;
+    function fGiovanniCoordenadasratoneneldiv(id) {
+    
+      $("#"+id).mousemove(function(event){
+        ratondivx = event.pageX - this.offsetLeft;
+        ratondivy= event.pageY - this.offsetTop;
+            //	$("#texto3").text("Coordenadas del ratón dentro del elemento: " + x + ", " + y);
+        
+         
+            
+          });
+          
+         
+      }
+    var identracrear=0;
+    function menubassico(draggablex,droppable){
+  
+      
+    
+      $( "#"+draggablex ).draggable({
+        stop: function( event, ui ) {
+    
+          
+       var objcss1={
+      "position": "absolute",
+    "top":"0px",
+    
+    "left": "0px",
+    //"width": "80px",
+    //"height": "22px",
+    //"background-color": "rgb(56, 49, 121)",
+    //"z-index":String(hijosconclelemento.length)
+    }
+          $("#"+ui.helper[0].id).css(objcss1);
+        },
+        drag: function( event, ui ) {
+    
+        }
+      });
+      $( "#idhoja1" ).droppable({
+        accept: ".clbocx",
+          drop: function( event, ui ) {
+    
+      
+      if(identracrear==0){
+        fgiovannicrearelementos(this);
+      }
+      identracrear=identracrear=+1;
+      if(identracrear!=0){
+              identracrear=0;
+            }
+        }
+      });
+    }
+    
+    
+    var containeridcuerpoH="idcuerpoH";
+    
+    function fgiovannicrearelementos(hoja) {
+      var hijosconclelemento= document.getElementsByClassName("clelemento"); 
+      if(hijosconclelemento.length>0){
+    
+    var idagenerar="el"+String(hijosconclelemento.length);
+    idagenerar.replace(" ","");
+    var creaesto=' <div id="'+idagenerar+'" class="clelemento">'+idagenerar+'</div>';
+  
+    
+    $(hoja).append(creaesto);
+    var positionpadre= $("#"+"idtodo").position();
+    var toppadre = positionpadre.top;
+    var leftpadre = positionpadre.left;
+  
+    
+    
+    var objcss1={
+      "position": "absolute",
+    "top":String(ratondivy-toppadre)+"px",
+    
+    "left": String(ratondivx) +"px",
+    "width": "80px",
+    "height": "22px",
+    //"background-color": "rgb(256,256,256,0)",
+    "z-index":String(hijosconclelemento.length)
+    }
+    $("#"+idagenerar).css(objcss1);
+    FGioarrastrarE(idagenerar,containeridcuerpoH);
+    
+    fGiovanniresizableE(idagenerar);
+     }
+    
+     
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  var intconshalturenglon=13;
+  var topx=0;
+    function Fgiovannicrearrenglones(selector){
+      var informacion=61;
+      var idrenglon="";
+      selector="#"+selector;
+      var elemnetpadre=document.getElementById(selector.replace("#",""));
+      for(var i=0; i<=60;i=i+1){
+        idrenglon="idrenglon"+String(i);
+        idrenglon=idrenglon.replace(" ","");
+        var esteren='<divid="'+idrenglon+'" class="clgrilladivrenglon">'+i+'</div>';
+        var ctop=0;
+      
+        
+        $(selector).append(esteren);
+        $(elemnetpadre.lastChild).css(
+          {
+            "position": "absolute",
+      "top": String(topx)+"px",
+      "left": "0%",
+      "width": "100%",
+      "height": "13px",
+          }
+        );
+        topx=topx+13;
+      }
+  
+  
+    }
+  
+  
+  var ObjGiohojaactual=null;
+  
+  var objetopropiedadesFGioarrastrar={
+      g:1
+  }
+  function fGiovanniElemento(id) {
+      return $("#"+id);
+    }
+  function fGiovanniElementoN(id) {
+      return document.getElementById(id);
+    }
+    function fGiovanniElementosClass(id) {
+      return $("."+id);
+    }
+  
+   
+  function fgetEN (id) {
+      return document.getElementById(id);
+  }
+  function fgetEClass (id) {
+      return $("."+id);
+  }
+  function fgetEG (id) {
+      return $("#"+id);
+  }
+  
+  
+  function FGioarrastrarC(selector,idct,objk=objetopropiedadesFGioarrastrar){
+  
+      $( "."+selector ).draggable({
+              snap: false,
+              disabled: false,
+              containment: "#"+idct,
+             // grid: [ 1, 1 ]
+          });
+        
+  }
+  
+  function FGioarrastrarE(selector,idct,objk=objetopropiedadesFGioarrastrar){
+  
+      $( "#"+selector ).draggable({
+          snap: false,
+          disabled: false,
+          containment: "#"+idct,
+         // grid: [ 1, 1 ]
+         drag:function name(a,b) {
+          var apos= fGiovanniGetPos(b.helper[0].id)
+          document.getElementById("idp").innerHTML="ratondivx "+apos.left+" "+apos.top;
+         }
+      });
+    
+  }
+  function FGioarrastrarsimple(id){
+  
+    $( "#"+id ).draggable({
+       
+      
+   
+       drag:function name(a,b) {
+  
+        
+       }
+    });
+  
+  }
+  function fGiovanniresizableC (selector){
+  /*    $( selector ).resizable({
+         // helper: "miclasscambiaformahelper",
+          disabled: false,
+          handles: "all",
+     
+          $( "#resizable" ).resizable();
+          ghost: true,
+          grid: [ 0, 0 ]
+  
+      });  */
+  
+      $( "."+selector ).resizable({
+          handles: "all",
+          disabled: false,
+          grid: [ 0, 0 ]
+      });
+      
+   /*    $(selector).resizable({
+          helper: "ayuda"
+      });
+   */
+     
+  }
+  
+  function fGiovanniresizableE (selector){
+      /*    $( selector ).resizable({
+             // helper: "miclasscambiaformahelper",
+              disabled: false,
+              handles: "all",
+         
+              $( "#resizable" ).resizable();
+              ghost: true,
+              grid: [ 0, 0 ]
+      
+          });  */
+      
+          $( "#"+selector ).resizable({
+              handles: "all",
+              disabled: false,
+              grid: [ 0, 0 ]
+          });
+          
+       /*    $(selector).resizable({
+              helper: "ayuda"
+          });
+       */
+         
+      }
+  function fGiovanniidgrillahoja1(selector){
+      var css1={
+          "position": "absolute",
+          "left": "0"+"%",
+          "top": "0"+"%",
+          "width": "100"+"%",
+          "height": "100"+"%"
+        //  "background-color": "dodgerblue",
+      }
+  
+      $(selector).css({
+          css1
+      });
+  }
+  
+  
+  
+  
+  function fGiovanniCreaUdTodo(idpadre){
+      var stidtodo='  <div id="idtodo">'+
+      
+      '<div id="idcuerpoH">'+
+        '<div id="idhoja1" class="clhoja">'+
+    
+        '  <div id="idgrilla1" class="clgrilla"></div>'+
+         ' <div id="idmargenesdiv1" class="clmargenesdiv">'+
+           
+         ' </div>'+
+        '  <div id="el1" class="clelemento"></div>'+
+      '  </div>'+
+    
+    
+     ' </div>'+
+      
+      
+    
+  
+  
+    ' <div id="idmenubasico">'+
+     '<p id="idp"></p>'+
+         '<div id="idmtx1" class="clboxmin">'+
+    ' <div class="clmc1">'+
+    ' <div class="clmirow"><div id="idcrea1" class="clbocx">est</div><div class="clbocx"></div><div class="clbocx"></div></div>'+
+     
+  '   </div>'+
+    ' <div class="clmc2"></div>'+
+    '     </div>'+
+     
+    '   </div>'+
+     
+     
+     '  <div id="idmenubordes">'+
+      '   <input type="checkbox" name="" id="idic1" class="classchangecheck">'+
+        ' <input type="checkbox" name="" id="idic2" class="classchangecheck">'+
+       '  <input type="checkbox" name="" id="idic3" class="classchangecheck">'+
+         '<input type="checkbox" name="" id="idic4" class="classchangecheck">'+
+     
+         
+       '</div>+'
+     
+    
+    '</div>'; // fin de  todo idtodo
+    
+      $("body").prepend(stidtodo);
+    }
+    
+    
+    
+  
+  
+  
+  //////////// fin demis funciones
+  
+  
+  var _this;
+  
+  function  DiagramadorCOREgio(){
+  this.hojaActualE=ObjGiohojaactual;
+  _this=this;
+  this.Coordenadasratoneneldiv=function name(id) {
+      fGiovanniCoordenadasratoneneldiv(id);
+  }
+  this.ajustaridcuerpoHconwith=function () {
+      fGiovanniajustaridcuerpoHconinnerWidth();
+    }
+  this.crearrenglones=function(id){
+      Fgiovannicrearrenglones(id);
+  }
+  
+  this.cambiarPadreALCueropodeHojas=function(idpadre){
+    fgiovannidarpadrealidtodoHoja(idpadre)
+  }
+  
+  this.getElementoGio=function (id) { 
+     return fGiovanniElemento(id);
+   }
+   this.getElementosClass=function (id) { 
+      return fGiovanniElementosClass(id);
+    }
+   
+   this.getElementoN=function (id) { 
+      return fGiovanniElementoN(id);
+    }
+      this.arrastrarC=function(s,idct,obj){
+          FGioarrastrarC(s,idct,obj);
+      }
+  
+      this.arrastrarE=function(s){
+          FGioarrastrarE(s);
+      } 
+      this.cambiarAnchoyAltoEconRaton=function(s){
+          fGiovanniresizableC(s);
+      }
+  this.menubasico=function (idcrea1,idhoja1) {
+      menubassico(idcrea1,idhoja1);
+  }
+  
+  this.getECL=function (cl) {
+     return fGiovanniGetElementosporClass(cl); 
+  }
+  
+  this.arrastrarSimple=function(id){
+    FGioarrastrarsimple(id);
+  }
+  this.inicia=function(idpadrecuerpoHojas){
+     
+      fGiovanniCreaUdTodo();
+      this.crearrenglones("idgrilla1");
+      this.hojaActualE=ObjGiohojaactual;
+  
+      setTimeout(function () {
+          _this. menubasico ("idcrea1","idhoja1");
+          _this.Coordenadasratoneneldiv("idcuerpoH");  
+          fGiovanniCheckmenuboder();
+          encrearhoja("idhoja1");
+  
+         _this.cambiarPadreALCueropodeHojas(idpadrecuerpoHojas);
+      },1000);
+  }
+  
+  this.ajustaridcuerpoHconwith();
+  }
+  
+  
+  
