@@ -610,7 +610,7 @@ rrastra1" style="position: relative; left: -1px; top: -1px;">chequeo No Excluyen
  document.getElementById(elm.id).style.left="-1px";
 
  document.getElementById(elm.id).style.top="-1px"; 
-  
+  alert("ww");
   }
 
 
