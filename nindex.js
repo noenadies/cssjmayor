@@ -61,6 +61,9 @@ function fGiovannicreaobjgGeneralcs(id,tipodelinea,colo="#2eb9ce",unidadp="px"){
 
  }
  ov=valoresparacssborder;
+ console.log("mirarr giooo");
+ console.log(widthx);
+ console.log($(selector));
   var objgGeneral={
     "position": "absolute",
 "top": String(topx*conversionunidad)+unidadpx,
@@ -73,7 +76,7 @@ function fGiovannicreaobjgGeneralcs(id,tipodelinea,colo="#2eb9ce",unidadp="px"){
 "border-left":String(ov.vi*conversionunidad)+unidadpx+addborde, 
   }
   
-  
+  console.log(objgGeneral);
   $("#"+id).css(objgGeneral);
   return objgGeneral;
 }
