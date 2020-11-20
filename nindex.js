@@ -298,7 +298,7 @@ function fGiovanniGetPos(id){
     });
   }
   
-
+var esteeleemntxxx=null;
 
   function deshabilitarEresizable(id, hablitar){
   /*   $( "#"+id).resizable({
@@ -351,14 +351,16 @@ function fGiovanniGetPos(id){
           "top":"50%",
           
           "left": "50%",
-     "transform": "translate(-50%, -50%)"
+     "transform": "translate(0%, 0%)",
+     "width": "100%",
+"height": "100%"
           //"width": "80px",
           //"height": "22px",
           //"background-color": "rgb(56, 49, 121)",
           //"z-index":String(hijosconclelemento.length)
           }
                 $("#"+ui.helper[0].id).css(objcss1); 
-
+                esteeleemntxxx=ui.helper[0];
   var padredelnodo=ui.helper[0].parentElement;
         console.log(ui.helper);
         console.log(ui.helper[0].offsetLeft);
@@ -368,7 +370,7 @@ setTimeout(function(){
 
           console.log("un segundo");
 },1000);  
-        console.log("aaaaaaaaaaaaaaaaaaaaaaa");
+        console.log("2222aaaaaaaaaaaaaaaaaaaaaaa");
       },
       drag: function( event, ui ) {
   
