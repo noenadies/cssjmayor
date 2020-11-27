@@ -387,11 +387,22 @@ function colocarpdfscript(param) {
         
   $("*").removeClass(varclassgiovanniselecion);
   
-  console.log($(e.target)[0].draggable);
-  console.log(e.target.style.cssText);
-  console.log($(e.target));
+  
   //jQuery351081055757601035362 jQuery351070136356109760262
   actualelementoactivo=e.target;
+  var selector2=actualelementoactivo;
+  var ancho=$(selector2).width();
+  actualelementoactivo.setAttribute(propiedaeselementos.ancho, ancho);
+  var alto=$(selector2).height();
+  actualelementoactivo.setAttribute(propiedaeselementos.alto, alto);
+  var position2 = $(selector2).position();
+  var top2 = position2.top;
+  var left2 = position2.left;
+  actualelementoactivo.setAttribute(propiedaeselementos.y, top2);
+  
+  actualelementoactivo.setAttribute(propiedaeselementos.x, left2);
+  
+  /* actualelementoactivo.setAttribute(propiedaeselementos.fijar, true) */
   
   actualelementoactivo.setAttribute("gancho", 43434);
   $(actualelementoactivo).addClass(varclassgiovanniselecion);
@@ -429,14 +440,19 @@ function colocarpdfscript(param) {
   
     }
   var propiedaeselementos={
-    fijar:"fijar"
+    ancho:"ancho",
+    alto:"alto",
+    fijar:"fijar",
+    x:"x",
+    y:"y"
+  
   };
     function  crearpropiedadesenelementos(id,p1,p2,p3,p4,p5,p6,p7,p8){
-      document.getElementById(id).setAttribute("gancho", p1);
-      document.getElementById(id).setAttribute("galto", p2);
+      document.getElementById(id).setAttribute(propiedaeselementos.ancho, p1);
+      document.getElementById(id).setAttribute(propiedaeselementos.alto, p2);
       document.getElementById(id).setAttribute(propiedaeselementos.fijar, p3);
-      document.getElementById(id).setAttribute("gsize", p4);
-      document.getElementById(id).setAttribute("gquieto", p5);
+      document.getElementById(id).setAttribute(propiedaeselementos.x, p4);
+      document.getElementById(id).setAttribute(propiedaeselementos.y, p5);
       document.getElementById(id).setAttribute("gancho1", p6);
       document.getElementById(id).setAttribute("gancho2", p7);
       document.getElementById(id).setAttribute("gancho3", p8);
@@ -803,8 +819,12 @@ function colocarpdfscript(param) {
     else{
       deshabilitarEresizable(idagenerar,true);
     }
+  var selector2="#"+idagenerar;
+  var position2 = $(selector2).position();
+  var top2 = position2.top;
+  var left2 = position2.left;
   
-    crearpropiedadesenelementos(idagenerar,1,2,3,4,5,6,7,8);
+    crearpropiedadesenelementos(idagenerar,$(selector2).width(),$(selector2).height(),false,left2,top2,6,7,8);
   /* $(".classoverelementos").mouseover(function () { 
     
   
